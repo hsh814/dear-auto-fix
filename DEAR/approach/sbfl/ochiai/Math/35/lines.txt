@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,36,private double elitismRate = 0.9;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,61,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,60,this.populationLimit = populationLimit;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,59,this.chromosomes = chromosomes;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,55,if (populationLimit <= 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,51,if (chromosomes.size() > populationLimit) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,50,public ListPopulation(final List<Chromosome> chromosomes, final int populationLimit) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,52,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,51,this.elitismRate = elitismRate;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,50,super(chromosomes, populationLimit);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,75,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,74,this.chromosomes = new ArrayList<Chromosome>(populationLimit);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,73,this.populationLimit = populationLimit;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,70,if (populationLimit <= 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,69,public ListPopulation(final int populationLimit) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,66,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,65,this.elitismRate = elitismRate;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,64,super(populationLimit);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,155,return chromosomes.iterator();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,146,return this.chromosomes.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,138,return this.chromosomes.size();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,131,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,130,this.populationLimit = populationLimit;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,122,return this.populationLimit;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,114,return bestChromosome;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,113,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,111,bestChromosome = chromosome;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,109,if (chromosome.compareTo(bestChromosome) > 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,108,for (Chromosome chromosome : this.chromosomes) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,107,Chromosome bestChromosome = this.chromosomes.get(0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,99,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,98,this.chromosomes.add(chromosome);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,90,return chromosomes;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,83,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,82,this.chromosomes = chromosomes;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,71,throw new NotPositiveException(LocalizedFormats.POPULATION_LIMIT_NOT_POSITIVE, populationLimit);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,56,throw new NotPositiveException(LocalizedFormats.POPULATION_LIMIT_NOT_POSITIVE, populationLimit);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java,52,throw new NumberIsTooLargeException(LocalizedFormats.LIST_OF_CHROMOSOMES_BIGGER_THAN_POPULATION_SIZE,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,109,return this.elitismRate;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,102,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,101,this.elitismRate = elitismRate;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,99,throw new OutOfRangeException(LocalizedFormats.ELITISM_RATE, elitismRate, 0, 1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,98,if (elitismRate < 0 || elitismRate > 1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,86,return nextGeneration;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,84,nextGeneration.addChromosome(oldChromosomes.get(i));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,83,for (int i=boundIndex; i<oldChromosomes.size(); i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,82,int boundIndex = (int) FastMath.ceil((1.0 - this.getElitismRate()) * oldChromosomes.size());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,79,Collections.sort(oldChromosomes);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,78,List<Chromosome> oldChromosomes = this.getChromosomes();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java,76,ElitisticListPopulation nextGeneration = new ElitisticListPopulation(this.getPopulationLimit(), this.getElitismRate());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,108,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,106,fitness = sameChromosome.getFitness();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,105,if (sameChromosome != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,104,Chromosome sameChromosome = findSameChromosome(population);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,94,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,93,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,91,return anotherChr;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,90,if (this.isSame(anotherChr)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,89,for (Chromosome anotherChr : population) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,76,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,65,return ((Double)this.getFitness()).compareTo(another.getFitness());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,49,return this.fitness;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,47,this.fitness = fitness();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,45,if (this.fitness == NO_FITNESS) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,33,private double fitness = NO_FITNESS;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/genetics/Chromosome.java,28,public abstract class Chromosome implements Comparable<Chromosome>,Fitness {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/NotPositiveException.java,48,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/NotPositiveException.java,47,super(specific, value, 0, true);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/NotPositiveException.java,38,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/NotPositiveException.java,37,super(value, 0, true);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/OutOfRangeException.java,77,return hi;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/OutOfRangeException.java,71,return lo;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/OutOfRangeException.java,65,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/OutOfRangeException.java,64,this.hi = hi;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/OutOfRangeException.java,63,this.lo = lo;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/OutOfRangeException.java,62,super(specific, wrong, lo, hi);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/OutOfRangeException.java,47,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/OutOfRangeException.java,46,this(LocalizedFormats.OUT_OF_RANGE_SIMPLE, wrong, lo, hi);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/NumberIsTooLargeException.java,84,return max;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/NumberIsTooLargeException.java,77,return boundIsAllowed;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/NumberIsTooLargeException.java,71,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/NumberIsTooLargeException.java,70,this.boundIsAllowed = boundIsAllowed;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/NumberIsTooLargeException.java,69,this.max = max;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/NumberIsTooLargeException.java,67,super(specific, wrong, max);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/NumberIsTooLargeException.java,54,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/NumberIsTooLargeException.java,50,this(boundIsAllowed ?
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,393,return sourceFormat;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,387,} catch (MissingResourceException mre) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,389,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,384,return bundle.getString(toString());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,382,if (bundle.getLocale().getLanguage().equals(locale.getLanguage())) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,380,ResourceBundle bundle =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,379,final String path = LocalizedFormats.class.getName().replaceAll("\\.", "/");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,373,return sourceFormat;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,39,public enum LocalizedFormats implements Localizable {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,39,public enum LocalizedFormats implements Localizable {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,369,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,368,this.sourceFormat = sourceFormat;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java,367,private LocalizedFormats(final String sourceFormat) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/35/src/main/java/org/apache/commons/math3/exception/util/ArgUtils.java,54,return list.toArray();

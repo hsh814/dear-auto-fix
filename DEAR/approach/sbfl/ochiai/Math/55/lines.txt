@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,473,return new Vector3D(v1.y * v2.z - v1.z * v2.y, v1.z * v2.x - v1.x * v2.z, v1.x * v2.y - v1.y * v2.x);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,197,return z;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,189,return y;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,181,return x;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,97,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,96,this.z = z;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,95,this.y = y;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,94,this.x = x;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,93,public Vector3D(double x, double y, double z) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,288,return new Vector3D(x.doubleValue(), y.doubleValue(), z.doubleValue());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,285,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,284,if (!CompositeFormat.parseFixedstring(source, trimmedSuffix, pos)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,283,CompositeFormat.parseAndIgnoreWhitespace(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,279,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,278,pos.setIndex(initialIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,275,if (z == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,274,Number z = CompositeFormat.parseNumber(source, format, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,273,CompositeFormat.parseAndIgnoreWhitespace(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,271,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,270,if (!CompositeFormat.parseFixedstring(source, trimmedSeparator, pos)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,269,CompositeFormat.parseAndIgnoreWhitespace(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,265,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,264,pos.setIndex(initialIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,261,if (y == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,260,Number y = CompositeFormat.parseNumber(source, format, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,259,CompositeFormat.parseAndIgnoreWhitespace(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,257,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,256,if (!CompositeFormat.parseFixedstring(source, trimmedSeparator, pos)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,255,CompositeFormat.parseAndIgnoreWhitespace(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,251,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,250,pos.setIndex(initialIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,247,if (x == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,246,Number x = CompositeFormat.parseNumber(source, format, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,245,CompositeFormat.parseAndIgnoreWhitespace(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,241,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,240,if (!CompositeFormat.parseFixedstring(source, trimmedPrefix, pos)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,239,CompositeFormat.parseAndIgnoreWhitespace(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,236,int initialIndex = pos.getIndex();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,226,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,222,throw new MathParseException(source,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,221,if (parsePosition.getIndex() == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,220,Vector3D result = parse(source, parsePosition);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,219,ParsePosition parsePosition = new ParsePosition(0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,208,return toAppendTo;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,206,toAppendTo.append(suffix);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,203,CompositeFormat.formatDouble(vector.getZ(), format, toAppendTo, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,202,toAppendTo.append(separator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,201,CompositeFormat.formatDouble(vector.getY(), format, toAppendTo, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,200,toAppendTo.append(separator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,199,CompositeFormat.formatDouble(vector.getX(), format, toAppendTo, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,196,toAppendTo.append(prefix);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,193,pos.setEndIndex(0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,192,pos.setBeginIndex(0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,178,return format(v, new StringBuffer(), new FieldPosition(0)).toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,168,return new Vector3DFormat(CompositeFormat.getDefaultNumberFormat(locale));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,159,return getInstance(Locale.getDefault());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,151,return format;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,143,return separator;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,135,return suffix;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,127,return prefix;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,119,return NumberFormat.getAvailableLocales();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,111,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,110,this.format      = format;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,109,trimmedSeparator = separator.trim();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,108,trimmedSuffix    = suffix.trim();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,107,trimmedPrefix    = prefix.trim();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,106,this.separator   = separator;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,105,this.suffix      = suffix;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,104,this.prefix      = prefix;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,103,final String separator, final NumberFormat format) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,92,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,91,this(prefix, suffix, separator, CompositeFormat.getDefaultNumberFormat());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,81,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,80,this(DEFAULT_PREFIX, DEFAULT_SUFFIX, DEFAULT_SEPARATOR, format);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,73,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3DFormat.java,71,this(DEFAULT_PREFIX, DEFAULT_SUFFIX, DEFAULT_SEPARATOR,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,542,return DEFAULT_FORMAT.format(this);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,534,return dx * dx + dy * dy + dz * dz;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,533,final double dz = v2.z - v1.z;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,532,final double dy = v2.y - v1.y;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,531,final double dx = v2.x - v1.x;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,519,return FastMath.max(FastMath.max(dx, dy), dz);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,518,final double dz = FastMath.abs(v2.z - v1.z);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,517,final double dy = FastMath.abs(v2.y - v1.y);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,516,final double dx = FastMath.abs(v2.x - v1.x);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,504,return FastMath.sqrt(dx * dx + dy * dy + dz * dz);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,503,final double dz = v2.z - v1.z;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,502,final double dy = v2.y - v1.y;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,501,final double dx = v2.x - v1.x;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,489,return dx + dy + dz;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,488,final double dz = FastMath.abs(v2.z - v1.z);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,487,final double dy = FastMath.abs(v2.y - v1.y);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,486,final double dx = FastMath.abs(v2.x - v1.x);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,449,return v1.x * v2.x + v1.y * v2.y + v1.z * v2.z;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,440,return 31 * (23 * MathUtils.hash(x) +  19 * MathUtils.hash(y) +  MathUtils.hash(z));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,438,return 8;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,437,if (isNaN()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,425,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,423,return (x == rhs.x) && (y == rhs.y) && (z == rhs.z);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/55/src/main/java/org/apache/commons/math/geometry/Vector3D.java,420,return this.isNaN();

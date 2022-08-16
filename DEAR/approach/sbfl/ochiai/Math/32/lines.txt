@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,140,return new IntervalsSet(line.toSubSpace(start).getX(),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,139,final Line line = new Line(start, end);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,57,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java,56,super(new Line(start, end), buildIntervalSet(start, end));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java,330,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java,136,if ((Boolean) tree.getAttribute()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java,135,final BSPTree<Euclidean2D> tree = getTree(false);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities/AVLTree.java,167,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/PolyhedronsSet.java,84,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/PolyhedronsSet.java,83,super(boundary);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/FastMath.java,2484,} else {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/FastMath.java,2483,yb = epsB * denom;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/FastMath.java,2482,ya = epsA * denom;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/util/FastMath.java,2480,final double denom = 1d / (1d + (xa + xb) * (TANGENT_TABLE_A[idx] + TANGENT_TABLE_B[idx]));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,82,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,81,this(p1, p2.subtract(p1).crossProduct(p3.subtract(p1)));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,106,return (global < -1.0e-10) ?
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,105,final double global = otherPlane.getOffset(thisPlane);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,64,return (global < -1.0e-10) ? Side.MINUS : ((global > 1.0e-10) ? Side.PLUS : Side.HYPER);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,63,final double global = otherPlane.getOffset(thisPlane);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,427,return (((Plane) other).w).dotProduct(w) > 0.0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,406,return originOffset + (sameOrientationAs(plane) ? -plane.originOffset : plane.originOffset);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,324,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java,207,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java,206,minusList.add(split.getMinus());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java,205,plusList.add(split.getPlus());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java,204,final SubHyperplane.SplitSubHyperplane<S> split = other.split(inserted);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java,51,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java,50,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,136,return new SplitSubHyperplane<Euclidean3D>(new SubPlane(thisPlane.copySelf(), new PolygonsSet(plusTree)),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,131,final BSPTree<Euclidean2D> minusTree = getRemainingRegion().isEmpty(splitTree.getMinus()) ?
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,126,final BSPTree<Euclidean2D> plusTree  = getRemainingRegion().isEmpty(splitTree.getPlus()) ?
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,125,final BSPTree<Euclidean2D> splitTree = getRemainingRegion().getTree(false).split(l2DMinus);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,122,final SubHyperplane<Euclidean2D> l2DPlus =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,120,final SubHyperplane<Euclidean2D> l2DMinus =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,118,q           = tmp;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,117,p           = q;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,116,final Vector2D tmp = p;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,115,if (crossP.dotProduct(otherPlane.getNormal()) < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,114,Vector3D crossP = Vector3D.crossProduct(inter.getDirection(), thisPlane.getNormal());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,113,Vector2D q = thisPlane.toSubSpace(inter.toSpace(Vector1D.ONE));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,112,Vector2D p = thisPlane.toSubSpace(inter.toSpace(Vector1D.ZERO));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,103,if (inter == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,101,final Line  inter      = otherPlane.intersection(thisPlane);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,100,final Plane thisPlane  = (Plane) getHyperplane();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,99,final Plane otherPlane = (Plane) hyperplane;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,86,return getRemainingRegion().side(line2D);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,82,final org.apache.commons.math3.geometry.euclidean.twod.Line line2D =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,80,q           = tmp;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,79,p           = q;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,78,final Vector2D tmp = p;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,77,if (crossP.dotProduct(otherPlane.getNormal()) < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,76,Vector3D crossP = Vector3D.crossProduct(inter.getDirection(), thisPlane.getNormal());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,75,Vector2D q = thisPlane.toSubSpace(inter.toSpace(Vector1D.ONE));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,74,Vector2D p = thisPlane.toSubSpace(inter.toSpace(Vector1D.ZERO));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,60,if (inter == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,58,final Line  inter      = otherPlane.intersection(thisPlane);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,57,final Plane thisPlane  = (Plane) getHyperplane();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,56,final Plane otherPlane = (Plane) hyperplane;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,49,return new SubPlane(hyperplane, remainingRegion);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,43,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubPlane.java,42,super(hyperplane, remainingRegion);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/PolyhedronsSet.java,118,getTree(true).visit(new FacetsContributionVisitor());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,376,return new SubPlane(this, new PolygonsSet());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,365,return new Vector3D(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,364,final double r = 1.0 / determinant;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,360,if (FastMath.abs(determinant) < 1.0e-10) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,359,final double determinant = a1 * a23 + b1 * b23 + c1 * c23;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,358,final double c23         = a2 * b3 - a3 * b2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,357,final double b23         = c2 * a3 - c3 * a2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,356,final double a23         = b2 * c3 - b3 * c2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,352,final double d3 = plane3.originOffset;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,351,final double c3 = plane3.w.getZ();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,350,final double b3 = plane3.w.getY();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,349,final double a3 = plane3.w.getX();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,347,final double d2 = plane2.originOffset;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,346,final double c2 = plane2.w.getZ();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,345,final double b2 = plane2.w.getY();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,344,final double a2 = plane2.w.getX();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,342,final double d1 = plane1.originOffset;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,341,final double c1 = plane1.w.getZ();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,340,final double b1 = plane1.w.getY();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,339,final double a1 = plane1.w.getX();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,327,return new Line(point, point.add(direction));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,326,final Vector3D point = intersection(this, other, new Plane(direction));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,323,if (direction.getNorm() < 1.0e-10) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,322,final Vector3D direction = Vector3D.crossProduct(w, other.w);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,236,return new Vector3D(p2D.getX(), u, p2D.getY(), v, -originOffset, w);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,235,final Vector2D p2D = (Vector2D) point;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,225,return new Vector2D(point.dotProduct(u), point.dotProduct(v));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,171,return w;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,150,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,149,v = Vector3D.crossProduct(w, u);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,148,u = w.orthogonal();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,147,origin = new Vector3D(-originOffset, w);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,142,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,141,w = new Vector3D(1.0 / norm, normal);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,138,if (norm < 1.0e-10) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,137,final double norm = normal.getNorm();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/32/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java,105,return new Plane(this);

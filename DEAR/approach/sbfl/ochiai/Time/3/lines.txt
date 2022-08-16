@@ -1,0 +1,42 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,786,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,785,setMillis(getChronology().hours().add(getMillis(), hours));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/DateTimeZone.java,931,return offsetPrev;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,60,return instant;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,353,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,351,super(year, monthOfYear, dayOfMonth,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,94,return instant; // the easy case
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,765,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,764,setMillis(getChronology().days().add(getMillis(), days));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,724,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,723,setMillis(getChronology().weeks().add(getMillis(), weeks));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,703,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,702,setMillis(getChronology().months().add(getMillis(), months));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,661,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,660,setMillis(getChronology().years().add(getMillis(), years));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,640,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,639,setMillis(type.getField(getChronology()).add(getMillis(), amount));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/DateTimeZone.java,213,return zone;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/DateTimeZone.java,212,if (zone != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/DateTimeZone.java,211,DateTimeZone zone = cProvider.getZone(id);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,144,if (id.equals(obj)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,140,if (obj == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,139,Object obj = iZoneInfoMap.get(id);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,135,if (id == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/DateTimeZone.java,208,if (id.equals("UTC")) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/DateTimeZone.java,205,if (id == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,1229,return ISODateTimeFormat.dateTime().print(this);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,154,return tz;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,153,if (tz != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,152,DateTimeZone tz = ref.get();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,151,SoftReference<DateTimeZone> ref = (SoftReference<DateTimeZone>) obj;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,636,if (type == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,149,if (obj instanceof SoftReference<?>) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,456,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,474,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,473,super.setMillis(instant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/MutableDateTime.java,454,switch (iRoundingMode) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/base/BaseDateTime.java,318,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/base/BaseDateTime.java,317,iMillis = checkInstant(instant, iChronology);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/base/BaseDateTime.java,225,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/base/BaseDateTime.java,223,this(year, monthOfYear, dayOfMonth, hourOfDay,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/3/src/main/java/org/joda/time/chrono/AssembledChronology.java,192,return iHours;

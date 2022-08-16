@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,29,public class NumericEntityUnescaper extends CharSequenceTranslator {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,32,public abstract class CharSequenceTranslator {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,64,return 2 + (end - start) + (isHex ? 1 : 0) + 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,63,out.write(entityValue);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,61,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,57,entityValue = Integer.parseInt(input.subSequence(start, end).toString(), 10);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,54,if(isHex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,49,end++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,48,while(input.charAt(end) != ';') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,47,int end = start;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,42,if(firstChar == 'x' || firstChar == 'X') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,41,char firstChar = input.charAt(start);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,39,boolean isHex = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,38,int start = index + 2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,37,if(input.charAt(index) == '&' && input.charAt(index + 1) == '#') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,102,i--;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,98,i++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,95,i += Character.charCount( Character.codePointAt(input, i) );
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,94,if(i < sz - 2) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,93,for(int j=0; j<consumed; j++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,60,return writer.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,59,translate(input, writer);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,58,StringWriter writer = new StringWriter(input.length() * 2);  // TODO: Make the 2 part of the API???
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,54,if (input == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,105,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,89,if(consumed == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,87,int consumed = translate(input, i, out);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,84,for (int i = 0; i < sz; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,83,int sz = Character.codePointCount(input, 0, input.length());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,80,if (input == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,77,if (out == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,66,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,60,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,59,} catch(NumberFormatException nfe) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,55,entityValue = Integer.parseInt(input.subSequence(start, end).toString(), 16);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,44,isHex = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,43,start++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,57,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,54,return consumed;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,53,if(consumed != 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,52,int consumed = translator.translate(input, index, out);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,51,for (CharSequenceTranslator translator : translators) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,42,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,41,this.translators = ArrayUtils.clone(translators);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,40,public AggregateTranslator(CharSequenceTranslator... translators) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,129,return Integer.toHexString(codepoint).toUpperCase(Locale.ENGLISH);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,118,return new AggregateTranslator(newArray);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,117,System.arraycopy(translators, 0, newArray, 1, translators.length);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,116,newArray[0] = this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,115,CharSequenceTranslator[] newArray = new CharSequenceTranslator[translators.length + 1];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,90,out.write( Character.toChars( Character.codePointAt(input, i) ) );
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,81,return;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,78,throw new IllegalArgumentException("The Writer must not be null");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,63,throw new RuntimeException(ioe);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,61,} catch (IOException ioe) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,55,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,29,public class NumericEntityUnescaper extends CharSequenceTranslator {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,32,public abstract class CharSequenceTranslator {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,64,return 2 + (end - start) + (isHex ? 1 : 0) + 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,63,out.write(entityValue);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,61,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,57,entityValue = Integer.parseInt(input.subSequence(start, end).toString(), 10);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,54,if(isHex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,49,end++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,48,while(input.charAt(end) != ';') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,47,int end = start;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,42,if(firstChar == 'x' || firstChar == 'X') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,41,char firstChar = input.charAt(start);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,39,boolean isHex = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,38,int start = index + 2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,37,if(input.charAt(index) == '&' && input.charAt(index + 1) == '#') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,102,i--;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,98,i++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,95,i += Character.charCount( Character.codePointAt(input, i) );
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,94,if(i < sz - 2) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,93,for(int j=0; j<consumed; j++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,60,return writer.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,59,translate(input, writer);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,58,StringWriter writer = new StringWriter(input.length() * 2);  // TODO: Make the 2 part of the API???
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,54,if (input == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,105,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,89,if(consumed == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,87,int consumed = translate(input, i, out);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,84,for (int i = 0; i < sz; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,83,int sz = Character.codePointCount(input, 0, input.length());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,80,if (input == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,77,if (out == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,66,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,60,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,59,} catch(NumberFormatException nfe) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,55,entityValue = Integer.parseInt(input.subSequence(start, end).toString(), 16);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,44,isHex = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,43,start++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,57,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,54,return consumed;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,53,if(consumed != 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,52,int consumed = translator.translate(input, index, out);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,51,for (CharSequenceTranslator translator : translators) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,42,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/28/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,41,this.translators = ArrayUtils.clone(translators);

@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,195,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,193,this.data.add(ko);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,192,KeyedObject ko = new KeyedObject(key, object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,187,if (keyIndex >= 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,186,int keyIndex = getIndex(key);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,163,return getObject(getIndex(key));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,136,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,135,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,134,i++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,132,result = i;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,131,if (ko.getKey().equals(key)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,130,KeyedObject ko = (KeyedObject) iterator.next();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,129,while (iterator.hasNext()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,128,Iterator iterator = this.data.iterator();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,127,int i = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,126,int result = -1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,95,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,92,result = kobj.getObject();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,91,if (kobj != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,90,KeyedObject kobj = (KeyedObject) this.data.get(item);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,89,if (item >= 0 && item < this.data.size()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,88,Object result = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,69,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,68,this.data = new java.util.ArrayList();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects.java,67,public KeyedObjects() {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObject.java,94,return this.object;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObject.java,85,return this.key;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObject.java,77,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObject.java,76,this.object = object;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObject.java,75,this.key = key;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObject.java,74,public KeyedObject(Comparable key, Object object) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/MeanAndStandardDeviation.java,104,return this.standardDeviation;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/MeanAndStandardDeviation.java,95,return this.mean;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/MeanAndStandardDeviation.java,87,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/MeanAndStandardDeviation.java,86,this.standardDeviation = standardDeviation;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/MeanAndStandardDeviation.java,85,this.mean = mean;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/MeanAndStandardDeviation.java,84,public MeanAndStandardDeviation(Number mean, Number standardDeviation) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,242,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,239,this.columnKeys.add(columnKey);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,238,if (columnIndex < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,237,int columnIndex = this.columnKeys.indexOf(columnKey);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,236,row.setObject(columnKey, object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,234,this.rows.add(row);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,233,row = new KeyedObjects();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,232,this.rowKeys.add(rowKey);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,229,row = (KeyedObjects) this.rows.get(rowIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,228,if (rowIndex >= 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,227,int rowIndex = this.rowKeys.indexOf(rowKey);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,213,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,212,setObject(object, rowKey, columnKey);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,159,return (Comparable) this.columnKeys.get(column);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,128,return (Comparable) this.rowKeys.get(row);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,116,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,113,result = rowData.getObject(columnKey);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,112,if (columnKey != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,111,Comparable columnKey = (Comparable) this.columnKeys.get(column);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,110,if (rowData != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,109,KeyedObjects rowData = (KeyedObjects) this.rows.get(row);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,108,Object result = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,95,return this.columnKeys.size();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,86,return this.rowKeys.size();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,78,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,77,this.rows = new java.util.ArrayList();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,76,this.columnKeys = new java.util.ArrayList();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,75,this.rowKeys = new java.util.ArrayList();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/KeyedObjects2D.java,74,public KeyedObjects2D() {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,389,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,381,result = new Range(this.minimumRangeValueIncStdDev,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,379,if (!Double.isNaN(this.minimumRangeValueIncStdDev)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,378,if (includeInterval) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,377,Range result = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,340,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,339,fireDatasetChanged();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,335,this.minimumRangeValueIncStdDev = m - sd;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,333,if (Double.isNaN(this.minimumRangeValueIncStdDev)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,332,if (!Double.isNaN(m - sd)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,328,this.minimumRangeValue = m;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,326,if (Double.isNaN(this.minimumRangeValue)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,325,if (!Double.isNaN(m)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,321,this.maximumRangeValueIncStdDev = m + sd;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,319,if (Double.isNaN(this.maximumRangeValueIncStdDev)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,318,if (!Double.isNaN(m + sd)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,314,this.maximumRangeValue = m;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,312,if (Double.isNaN(this.maximumRangeValue)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,311,if (!Double.isNaN(m)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,308,sd = standardDeviation.doubleValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,307,if (standardDeviation != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,305,m = mean.doubleValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,304,if (mean != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,303,double sd = 0.0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,302,double m = 0.0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,301,this.data.addObject(item, rowKey, columnKey);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,299,MeanAndStandardDeviation item = new MeanAndStandardDeviation(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,287,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,286,add(new Double(mean), new Double(standardDeviation), rowKey, columnKey);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,273,return this.data.getColumnCount();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,264,return this.data.getRowCount();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,246,return this.data.getRowKey(row);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,215,return this.data.getColumnKey(column);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java,175,return result;

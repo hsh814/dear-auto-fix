@@ -14,6 +14,7 @@ from evaluation import evaluation, get_score
 import subprocess
 import time
 import keras
+from typing import List, Dict, Set, Tuple
 
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
@@ -39,6 +40,19 @@ def get_method_max_length(method_list):
                 max_length = length_record
     return max_length
 
+def get_proj():
+    projs = list()
+    with open("/root/dear-auto-fix/data/correct_patch.csv", "r") as f:
+        lines = f.readlines()
+        for line in lines:
+            line = line.strip()
+            if line == "" or line.startswith("#"):
+                continue
+            tokens = line.strip().split(",")
+            proj = tokens[0]
+            projs.append(proj)
+    return projs
+
 
 def run_on_defects4j(model):
     projects = ["Chart", "Closure", "Lang", "Math", "Mockito", "Time"]
@@ -46,15 +60,26 @@ def run_on_defects4j(model):
     path_ = os.path.abspath(os.path.dirname(os.getcwd()))
     os.chdir(path_ + "/sbfl/")
     print("Fixing on Defects4J...")
-    for i in range(len(projects)):
-        for bug in range(bugs[i]):
-            tic = time.perf_counter()
+    projs = get_proj()
+    for bugid in projs:
+        print(f"Fix {bugid}")
+        p, bid = bugid.split("-")
+        tic = time.perf_counter()
+        toc = time.perf_counter()
+        while toc-tic < 18000:
+            folder = path_ + "/sbfl/defects4j_data/" + projects[i] + "/" + str(bug + 1)
+            subprocess.call("./sbfl.sh " + projects[i] + " " + str(bug + 1) + " " + folder, shell=True)
+            print("Failed")
             toc = time.perf_counter()
-            while toc-tic < 18000:
-                folder = path_ + "/sbfl/defects4j_data/" + projects[i] + "/" + str(bug + 1)
-                subprocess.call("./sbfl.sh " + projects[i] + " " + str(bug + 1) + " " + folder, shell=True)
-                print("Failed")
-                toc = time.perf_counter()
+    # for i in range(len(projects)):
+    #     for bug in range(bugs[i]):
+    #         tic = time.perf_counter()
+    #         toc = time.perf_counter()
+    #         while toc-tic < 18000:
+    #             folder = path_ + "/sbfl/defects4j_data/" + projects[i] + "/" + str(bug + 1)
+    #             subprocess.call("./sbfl.sh " + projects[i] + " " + str(bug + 1) + " " + folder, shell=True)
+    #             print("Failed")
+    #             toc = time.perf_counter()
 
 
 def get_method_amount(method_list):
@@ -167,9 +192,10 @@ def model_process(data_group):
 
 def demo_process():
     path_p = os.path.abspath(os.path.dirname(os.getcwd()))
-    input_data = np.load(path_p + "\\data\\demo\\data_1.npy")
-    target_data = np.load(path_p + "\\data\\demo\\data_2.npy")
-    learning_model = keras.models.load_model('model')
+    print(f"Path: {path_p}")
+    input_data = np.load(os.path.join(path_p, "data/demo/data_1.npy"))
+    target_data = np.load(os.path.join(path_p, "data/demo/data_2.npy"))
+    learning_model = keras.models.load_model(os.path.join(path_p, "approach", 'model'))
     output_model_1 = learning_model.predict(input_data)
     output_model_1 = target_data
     try:

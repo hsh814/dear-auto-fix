@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/EstimatedParameter.java,63,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/EstimatedParameter.java,62,this.bound = bound;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/EstimatedParameter.java,61,estimate   = firstEstimate;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/EstimatedParameter.java,60,this.name  = name;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/EstimatedParameter.java,59,boolean bound) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,58,return (EstimatedParameter[]) parameters.toArray(new EstimatedParameter[parameters.size()]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/AbstractEstimator.java,173,sum += jacobian[k + i] * jacobian[k + j];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/AbstractEstimator.java,172,for (int k = 0; k < max; k += cols) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/AbstractEstimator.java,171,double sum = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/AbstractEstimator.java,170,for (int j = i; j < cols; ++j) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/AbstractEstimator.java,169,for (int i = 0; i < cols; ++i) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/AbstractEstimator.java,168,double[][] jTj = new double[cols][cols];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/AbstractEstimator.java,167,final int max  = cols * rows;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/AbstractEstimator.java,166,final int cols = problem.getAllParameters().length;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/AbstractEstimator.java,165,final int rows = problem.getMeasurements().length;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/AbstractEstimator.java,162,updateJacobian();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,172,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,748,bp[i][j] -= bp[col][j] * lu[i][col];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,747,for (int j = 0; j < nColB; j++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,736,bp[i][j] -= bp[col][j] * lu[i][col];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,735,for (int j = 0; j < nColB; j++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,168,} while ((getCostEvaluations() < 2) ||
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,166,updateResidualsAndCost();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,165,previous = cost;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,162,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,157,parameters[i].setEstimate(parameters[i].getEstimate() + dX.getEntry(i, 0));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,156,for (int i = 0; i < parameters.length; ++i) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/WeightedMeasurement.java,147,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/WeightedMeasurement.java,146,this.ignored = ignored;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/WeightedMeasurement.java,84,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/WeightedMeasurement.java,83,this.ignored       = ignored;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/WeightedMeasurement.java,82,this.measuredValue = measuredValue;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/WeightedMeasurement.java,81,this.weight        = weight;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/WeightedMeasurement.java,80,boolean ignored) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,847,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,754,return outMat;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,753,RealMatrixImpl outMat = new RealMatrixImpl(bp);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,746,for (int i = 0; i < col; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,744,bp[col][j] /= lu[col][col];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,743,for (int j = 0; j < nColB; j++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,742,for (int col = nCol - 1; col >= 0; col--) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,734,for (int i = col + 1; i < nCol; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,733,for (int col = 0; col < nCol; col++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,728,bp[row][col] = b.getEntry(permutation[row], col);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,727,for (int col = 0; col < nColB; col++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,726,for (int row = 0; row < nRowB; row++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,725,double[][] bp = new double[nRowB][nColB];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,722,int nRowB = b.getRowDimension();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,721,int nColB = b.getColumnDimension();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,720,int nCol = this.getColumnDimension();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,591,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,102,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,101,measurements.add(m);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,94,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,93,parameters.add(p);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,86,return (WeightedMeasurement[]) measurements.toArray(new WeightedMeasurement[measurements.size()]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,77,return (EstimatedParameter[]) unbound.toArray(new EstimatedParameter[unbound.size()]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,74,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,72,unbound.add(p);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,71,if (! p.isBound()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,70,EstimatedParameter p = (EstimatedParameter) iterator.next();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,69,for (Iterator iterator = parameters.iterator(); iterator.hasNext();) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,68,List unbound = new ArrayList(parameters.size());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,51,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,50,measurements = new ArrayList();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,49,parameters   = new ArrayList();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java,48,public SimpleEstimationProblem() {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/EstimatedParameter.java,107,return bound;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/AbstractEstimator.java,57,return costEvaluations;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,159,return new RealMatrixImpl(outData);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,156,outData[row][col] = data[row][col] + m.getEntry(row, col);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,155,for (int col = 0; col < columnCount; col++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,154,for (int row = 0; row < rowCount; row++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,153,double[][] outData = new double[rowCount][columnCount];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,152,int columnCount = this.getColumnDimension();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,151,int rowCount = this.getRowDimension();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/linear/RealMatrixImpl.java,147,if (this.getColumnDimension() != m.getColumnDimension() ||
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,153,RealMatrix dX = a.solve(b);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,145,b = b.add(bDecrement);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,144,a = a.add(wGradGradT);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,139,wggRow[l] =  weight * gk * grad[l];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,138,for (int l = 0; l < parameters.length; ++l) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,137,double gk = grad[k];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,136,double[] wggRow = wggData[k];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,135,for (int k = 0; k < parameters.length; ++k) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,131,bDecrementData[j][0] = weight * residual * grad[j];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,130,grad[j] = measurements[i].getPartial(parameters[j]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,129,for (int j = 0; j < parameters.length; ++j) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,126,double residual = measurements[i].getResidual();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,125,double weight   = measurements[i].getWeight();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,123,if (! measurements [i].isIgnored()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,122,for (int i = 0; i < measurements.length; ++i) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,121,RealMatrix a = new RealMatrixImpl(parameters.length, parameters.length);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,120,RealMatrix b = new RealMatrixImpl(parameters.length, 1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,119,incrementJacobianEvaluationsCounter();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,115,double previous = Double.POSITIVE_INFINITY;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,112,double[][] wggData        = wGradGradT.getDataRef();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,111,RealMatrixImpl wGradGradT = new RealMatrixImpl(parameters.length, parameters.length);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,110,double[][] bDecrementData = bDecrement.getDataRef();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/100/src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java,109,RealMatrixImpl bDecrement = new RealMatrixImpl(parameters.length, 1);

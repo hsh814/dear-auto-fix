@@ -1,0 +1,55 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,884,str.getChars(0, strLen, buffer, size);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,883,if (strLen >= width) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,882,int strLen = str.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,881,String str = (obj == null ? getNullText() : obj.toString());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,880,ensureCapacity(size + width);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,879,if (width > 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,112,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,111,buffer = new char[initialCapacity];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,108,if (initialCapacity <= 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,107,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,233,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,228,if (capacity > buffer.length) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2203,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2201,throw new StringIndexOutOfBoundsException(index);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2200,if (index < 0 || index > size) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2190,return endIndex;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2188,throw new StringIndexOutOfBoundsException("end < start");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2187,if (startIndex > endIndex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2185,endIndex = size;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2184,if (endIndex > size) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2182,throw new StringIndexOutOfBoundsException(startIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2181,if (startIndex < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2167,return new StringBuffer(size).append(buffer, 0, size);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2157,return new String(buffer, 0, size);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2143,return hash;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2141,hash = 31 * hash + buf[i];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2140,for (int i = size - 1; i >= 0; i--) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2139,int hash = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2138,char buf[] = buffer;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2129,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2127,return equals((StrBuilder) obj);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2126,if (obj instanceof StrBuilder) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2115,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2112,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2111,if (thisBuf[i] != otherBuf[i]) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2110,for (int i = size - 1; i >= 0; i--) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2109,char otherBuf[] = other.buffer;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2108,char thisBuf[] = this.buffer;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2106,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2105,if (this.size != other.size) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2103,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2102,if (this == other) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2091,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2088,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2087,if (c1 != c2 && Character.toUpperCase(c1) != Character.toUpperCase(c2)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2086,char c2 = otherBuf[i];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2085,char c1 = thisBuf[i];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2084,for (int i = size - 1; i >= 0; i--) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2083,char otherBuf[] = other.buffer;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2082,char thisBuf[] = this.buffer;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2080,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2079,if (this.size != other.size) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2077,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2076,if (this == other) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/59/src/java/org/apache/commons/lang/text/StrBuilder.java,2034,return new StrBuilderWriter();

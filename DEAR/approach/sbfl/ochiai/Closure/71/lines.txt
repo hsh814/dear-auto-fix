@@ -1,0 +1,99 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/DiagnosticType.java,131,return key + ": " + format.toPattern();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,455,compiler.report(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,465,} else {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,454,if (visibility == Visibility.PRIVATE && !sameInput) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,448,Visibility overridingVisibility = overridingInfo == null ?
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,447,JSDocInfo overridingInfo = parent.getJSDocInfo();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,444,if (isOverride) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,443,JSType ownerType = normalizeClassType(objectType);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,442,Visibility visibility = docInfo.getVisibility();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,440,boolean sameInput =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,431,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,392,if (prototypeInfo != null && prototypeInfo.isConstant()
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,390,JSDocInfo prototypeInfo
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,389,if (prototype != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,388,ObjectType prototype = objectType.getImplicitPrototype();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java,680,continue retry;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java,679,token = eatTokensUntilEOL();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java,675,if (!jsdocBuilder.recordVisibility(Visibility.PRIVATE)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/rhino/JSDocInfoBuilder.java,218,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/rhino/JSDocInfoBuilder.java,217,currentInfo.setVisibility(visibility);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/rhino/JSDocInfoBuilder.java,216,populated = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/rhino/JSDocInfoBuilder.java,215,if (currentInfo.getVisibility() == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/TypeCheck.java,1060,compiler.report(t.makeError(n, reportMissingOverride,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,400,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,387,if (objectType.isInstanceType()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,380,if (info != null && info.isConstant()
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,379,JSDocInfo info = objectType.getOwnPropertyJSDocInfo(propertyName);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,376,oType = oType.getImplicitPrototype();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,368,if (initializedConstantProperties.containsEntry(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,367,if (oType.hasReferenceName()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,366,while (oType != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,365,ObjectType oType = objectType;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,364,if (objectType != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,361,String propertyName = getprop.getLastChild().getString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,359,ObjectType objectType =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,468,return;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,200,return ((FunctionType) type).getInstanceType();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,633,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,631,return getPropertyDeprecationInfo(implicitProto, prop);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,630,if (implicitProto != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,629,ObjectType implicitProto = type.getImplicitPrototype();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,640,return type == null ? null : type.dereference();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,622,if (info != null && info.isDeprecated()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,621,JSDocInfo info = type.getOwnPropertyJSDocInfo(prop);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,435,if (objectType == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,429,if (docInfo != null &&
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,428,docInfo = objectType.getOwnPropertyJSDocInfo(propertyName);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,426,for (; objectType != null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,425,JSDocInfo docInfo = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,422,if (isOverride) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,416,boolean isOverride = t.inGlobalScope() &&
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,413,if (objectType != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,411,String propertyName = getprop.getLastChild().getString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,409,ObjectType objectType =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,354,if (!(NodeUtil.isAssignmentOp(parent) && parent.getFirstChild() == getprop)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,353,Node parent = getprop.getParent();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,316,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,301,if (deprecationInfo != null &&
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,298,String deprecationInfo
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,297,if (objectType != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,295,String propertyName = n.getLastChild().getString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,293,ObjectType objectType =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,289,if (parent.getType() == Token.NEW) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,224,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,223,checkConstantProperty(t, n);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,222,checkPropertyVisibility(t, n, parent);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,221,checkPropertyDeprecation(t, n, parent);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,201,} else if (type.isFunctionPrototypeType()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,330,if (visibility == Visibility.PRIVATE &&
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,329,Visibility visibility = docInfo.getVisibility();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,186,return normalizeClassType(n.getJSType());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/TypeCheck.java,1066,return;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,611,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,608,return getTypeDeprecationInfo(implicitProto);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,607,if (implicitProto != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,606,ObjectType implicitProto = objType.getImplicitPrototype();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,605,if (objType != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,604,ObjectType objType = ObjectType.cast(type);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,598,if (info != null && info.isDeprecated()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,597,JSDocInfo info = type.getJSDocInfo();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,593,if (type == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,580,return getTypeDeprecationInfo(type) != null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,579,if (type != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,578,JSType type = n.getJSType();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,577,if (n.getType() == Token.FUNCTION) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,199,} else if (type.isConstructor()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,197,if (type == null || type.isUnknownType()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,163,if (parent.getType() == Token.ASSIGN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,153,currentClass = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,152,if (methodDepth == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,151,methodDepth--;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,147,if (isDeprecatedFunction(n, parent)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,146,Node parent = n.getParent();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,145,Node n = t.getScopeRoot();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,139,methodDepth++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,137,currentClass = getClassOfMethod(n, parent);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,136,if (methodDepth == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,132,if (isDeprecatedFunction(n, parent)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/71/src/com/google/javascript/jscomp/CheckAccessControls.java,131,Node parent = n.getParent();

@@ -1,0 +1,77 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeParserBucket.java,377,throw e;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeParserBucket.java,375,e.prependMessage("Cannot parse \"" + text + '"');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeParserBucket.java,374,if (text != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeParserBucket.java,373,} catch (IllegalFieldValueException e) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,328,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,326,iMessage = message + ": " + iMessage;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,325,} else if (message != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,323,if (iMessage == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,314,return iMessage;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,715,instant.setMillis(bucket.computeMillis(false, text));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,714,int newPos = parser.parseInto(bucket, text, position);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,712,DateTimeParserBucket bucket = new DateTimeParserBucket(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,710,int defaultYear = chrono.year().get(instantLocal);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,709,chrono = selectChronology(chrono);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,708,long instantLocal = instantMillis + chrono.getZone().getOffset(instantMillis);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,707,Chronology chrono = instant.getChronology();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,706,long instantMillis = instant.getMillis();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,702,if (instant == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,701,DateTimeParser parser = requireParser();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeParserBucket.java,359,return computeMillis(resetFields, text);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeParserBucket.java,358,saveField(DateTimeFieldType.year(), iDefaultYear);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/MutableDateTime.java,353,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/MutableDateTime.java,351,super(year, monthOfYear, dayOfMonth,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/field/FieldUtils.java,218,throw new IllegalFieldValueException
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/field/BaseDurationField.java,150,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,306,thisDom = maxDom;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeParserBucket.java,518,return 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/chrono/BasicChronology.java,419,year--;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeParserBucket.java,423,array[j-1] = t;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeParserBucket.java,422,array[j] = array[j-1];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeParserBucket.java,421,SavedField t = array[j];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,53,buf.append("must be in the range [")
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,50,} else if (upperBound == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/ISODateTimeFormat.java,977,return dtx;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/ISODateTimeFormat.java,971,if (dtx == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,117,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,116,iMessage = super.getMessage();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,115,iUpperBound = upperBound;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,114,iLowerBound = lowerBound;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,113,iStringValue = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,112,iNumberValue = value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,111,iFieldName = fieldType.getName();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,110,iDurationFieldType = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,109,iDateTimeFieldType = fieldType;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,108,super(createMessage(fieldType.getName(), value, lowerBound, upperBound, null));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java,976,return appendShortText(DateTimeFieldType.dayOfWeek());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,63,return buf.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,59,if (explain != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,44,if (lowerBound == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/IllegalFieldValueException.java,41,StringBuilder buf = new StringBuilder()
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java,552,return append0(new TextField(fieldType, true));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java,549,if (fieldType == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,204,return iLocale;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,193,return new DateTimeFormatter(iPrinter, iParser, locale,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,190,if (locale == getLocale() || (locale != null && locale.equals(getLocale()))) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/chrono/BasicChronology.java,586,return getDaysInYearMonth(thisYear, thisMonth);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/chrono/BasicChronology.java,585,int thisMonth = getMonthOfYear(instant, thisYear);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/chrono/BasicChronology.java,584,int thisYear = getYear(instant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormat.java,688,return formatter;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormat.java,687,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/DateTimeFieldType.java,378,return iName;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormat.java,680,if (formatter == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormat.java,679,formatter = cPatternedCache.get(pattern);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormat.java,678,synchronized (cPatternedCache) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormat.java,677,DateTimeFormatter formatter = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormat.java,674,if (pattern == null || pattern.length() == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormat.java,170,return createFormatterForPattern(pattern);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java,220,return append0(formatter.getPrinter(), formatter.getParser());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java,217,if (formatter == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,174,return iParser;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatter.java,156,return iPrinter;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java,386,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java,385,iElementPairs.add(parser);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java,384,iElementPairs.add(printer);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java,383,iFormatter = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/chrono/GregorianChronology.java,212,if (isLeapYear(year)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/7/src/main/java/org/joda/time/chrono/GregorianChronology.java,211,leapYears = (year >> 2) - leapYears + (leapYears >> 2);

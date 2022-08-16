@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringBuilder.java,155,return ReflectionToStringBuilder.toString(object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,123,return toString(object, null, false, false, null);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,938,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,937,buffer.append(arrayEnd);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,934,appendInternal(buffer, fieldName, item, arrayContentDetail);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,930,if (item == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,927,if (i > 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,926,Object item = Array.get(array, i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,925,for (int i = 0; i < length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,924,int length = Array.getLength(array);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,923,buffer.append(arrayStart);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,623,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,622,this.getStyle().reflectionAppendArrayDetail(this.getStringBuffer(), null, array);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,528,return;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,527,this.reflectionAppendArray(this.getObject());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,649,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,648,this.appendTransients = appendTransients;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,637,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,636,this.appendStatics = appendStatics;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,290,return new ReflectionToStringBuilder(object, style, null, reflectUpToClass, outputTransients, outputStatics)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,477,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,476,this.setAppendStatics(outputStatics);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,475,this.setAppendTransients(outputTransients);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,474,this.setUpToClass(reflectUpToClass);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,473,super(object, style, buffer);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,684,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,683,this.upToClass = clazz;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,677,if (clazz != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,928,buffer.append(arraySeparator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringBuilder.java,1045,return style;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,702,this.appendFieldsIn(clazz);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,701,clazz = clazz.getSuperclass();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,704,return super.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,700,while (clazz.getSuperclass() != null && clazz != this.getUpToClass()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,699,this.appendFieldsIn(clazz);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,698,Class<?> clazz = this.getObject().getClass();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,566,return this.upToClass;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,549,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,532,for (Field field : fields) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,531,AccessibleObject.setAccessible(fields, true);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,530,Field[] fields = clazz.getDeclaredFields();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,526,if (clazz.isArray()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,695,if (this.getObject() == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,387,private Class<?> upToClass = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,377,private boolean appendTransients = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,372,private boolean appendStatics = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,414,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,413,match = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,931,appendNullText(buffer, fieldName);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,581,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,580,ObjectUtils.identityToString(buffer, value);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,472,return;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,471,appendCyclicObject(buffer, fieldName, value);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/ObjectUtils.java,221,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/ObjectUtils.java,218,buffer.append(object.getClass().getName())
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/ObjectUtils.java,215,if (object == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,1470,buffer.append(Integer.toHexString(System.identityHashCode(object)));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,1469,buffer.append('@');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,1468,register(object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,1455,buffer.append(object.getClass().getName());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,469,if (isRegistered(value)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,164,return m.containsKey(value);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,163,Map<Object, Object> m = getRegistry();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,148,return REGISTRY.get() != null ? REGISTRY.get() : Collections.<Object, Object>emptyMap();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,1452,if (useShortClassName) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,1451,register(object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringBuilder.java,256,style = getDefaultStyle();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringBuilder.java,120,return defaultStyle;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,210,REGISTRY.remove();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,209,if (m.isEmpty()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,208,m.remove(value);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,417,if (match) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,412,if (buffer.charAt(len - 1 - i) != fieldSeparator.charAt(sepLen - 1 - i)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,411,for (int i = 0; i < sepLen; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,410,boolean match = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,1490,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,1489,buffer.append(contentEnd);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,421,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,409,if (len > 0 && sepLen > 0 && len >= sepLen) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,408,int sepLen = fieldSeparator.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,407,int len = buffer.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,398,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,397,unregister(object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,396,appendContentEnd(buffer);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,394,removeLastFieldSeparator(buffer);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,393,if (this.fieldSeparatorAtEnd == false) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,215,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,213,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,207,if (m != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,206,m = REGISTRY.get();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,205,synchronized (ToStringStyle.class) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,203,if (value != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringBuilder.java,1063,style.appendEnd(this.getStringBuffer(), this.getObject());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,188,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,186,m.put(value, null);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,185,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,181,if (m == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,180,m = REGISTRY.get();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,179,synchronized (ToStringStyle.class) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/34/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java,177,if (value != null) {

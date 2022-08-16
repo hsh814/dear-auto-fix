@@ -1,0 +1,73 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/parsing/IRFactory.java,141,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/parsing/IRFactory.java,140,reservedKeywords = ES5_STRICT_RESERVED_KEYWORDS;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/DefaultPassConfig.java,271,checks.add(checkStrictMode);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/Compiler.java,1706,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/Compiler.java,1705,mode = Config.LanguageMode.ECMASCRIPT5_STRICT;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/AbstractCommandLineRunner.java,259,options.setLanguageIn(CompilerOptions.LanguageMode.ECMASCRIPT5_STRICT);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/CodePrinter.java,631,cg.tagAsStrict();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/CodeGenerator.java,72,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/CodeGenerator.java,71,add("'use strict';");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,171,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,160,if (n.getFirstChild().getType() == Token.NAME) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,109,checkAssignment(t, n);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StatementFusion.java,61,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,156,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,149,if (!noCajaChecks) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,141,if (v == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,140,Var v = t.getScope().getVar(n.getString());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,134,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,106,checkNameUse(t, n);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StatementFusion.java,60,if (!NodeUtil.isExpressionNode(c) && c != last) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StatementFusion.java,59,for (Node c = block.getFirstChild(); c != null; c = c.getNext()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StatementFusion.java,57,Node last = block.getLastChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/PeepholeFoldConstants.java,1301,return n;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/ConvertToDottedProperties.java,49,if (NodeUtil.isObjectLitKey(n, parent) &&
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/PeepholeFoldConstants.java,1274,if (right.getType() == Token.STRING &&
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/PeepholeFoldConstants.java,1270,if (left.getType() == Token.OBJECTLIT) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/PeepholeFoldConstants.java,1268,Preconditions.checkArgument(n.getType() == Token.GETPROP);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/PeepholeFoldConstants.java,102,return tryFoldGetProp(subtree, left, right);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,177,return;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,173,scope.getGlobalScope().declare(varName, n,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,172,createSynthesizedExternVar(varName);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,169,if (sanityCheck) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,166,t.report(n, UNDEFINED_VAR_ERROR, varName);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,165,if (!strictExternCheck || !t.getInput().isExtern()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,160,if (NodeUtil.isFunctionExpression(parent)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,131,return n.getParent().getParent().getType() == Token.FUNCTION;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,128,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,124,switch (n.getParent().getType()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,117,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,114,} else if (n.getType() == Token.LABEL) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,112,} else if (n.getType() == Token.OBJECTLIT) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,110,} else if (n.getType() == Token.DELPROP) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,108,} else if (n.getType() == Token.ASSIGN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,105,if (!isDeclaration(n)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,104,} else if (n.getType() == Token.NAME) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,102,if (n.getType() == Token.WITH) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,99,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,98,NodeTraversal.traverse(compiler, root, new NonExternChecks());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,96,NodeTraversal.traverseRoots(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,93,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,92,this.noCajaChecks = noCajaChecks;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,91,this.noVarCheck = noVarCheck;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,90,this.compiler = compiler;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/StrictModeCheck.java,89,AbstractCompiler compiler, boolean noVarCheck, boolean noCajaChecks) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/Scope.java,407,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/Scope.java,404,while (result.getParent() != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/Scope.java,403,Scope result = this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,290,return synthesizedExternsRoot;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,288,synthesizedExternsRoot = synthesizedExterns.getAstRoot(compiler);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,287,CompilerInput synthesizedExterns = getSynthesizedExternsInput();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,286,if (synthesizedExternsRoot == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,281,return synthesizedExternsInput;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,278,synthesizedExternsInput =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,277,if (synthesizedExternsInput == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,236,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,235,compiler.reportCodeChange();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,234,varsToDeclareInExterns.remove(varName);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,232,getSynthesizedExternsRoot().addChildToBack(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,228,if (compiler.getCodingConvention().isConstant(varName)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/VarCheck.java,220,Node nameNode = Node.newString(Token.NAME, varName);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/SyntheticAst.java,50,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/SyntheticAst.java,49,root.putProp(Node.SOURCENAME_PROP, sourceName);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/64/src/com/google/javascript/jscomp/SyntheticAst.java,48,root.setIsSyntheticBlock(true);

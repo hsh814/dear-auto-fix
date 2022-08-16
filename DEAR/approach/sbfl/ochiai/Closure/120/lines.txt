@@ -1,0 +1,6 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/120/src/com/google/javascript/rhino/Node.java,1459,return res;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/120/src/com/google/javascript/rhino/Node.java,1446,return new NodeMismatch(this, node2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/120/src/com/google/javascript/rhino/Node.java,1430,return "Node tree inequality:" +
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/120/src/com/google/javascript/jscomp/NodeUtil.java,2185,case Token.SHEQ: return "===";
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/120/src/com/google/javascript/jscomp/NodeUtil.java,1607,return n.getNext();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/120/src/com/google/javascript/jscomp/parsing/IRFactory.java,1397,return Token.SHEQ;

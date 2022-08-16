@@ -1,0 +1,11 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/6/src/main/java/org/apache/commons/lang3/StringEscapeUtils.java,556,return ESCAPE_CSV.translate(input);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/6/src/main/java/org/apache/commons/lang3/StringUtils.java,1763,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/6/src/main/java/org/apache/commons/lang3/StringUtils.java,1747,if (searchChars[j] == ch) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/6/src/main/java/org/apache/commons/lang3/StringUtils.java,1746,for (int j = 0; j < searchLen; j++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/6/src/main/java/org/apache/commons/lang3/StringUtils.java,1745,char ch = cs.charAt(i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/6/src/main/java/org/apache/commons/lang3/StringUtils.java,1744,for (int i = 0; i < csLen; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/6/src/main/java/org/apache/commons/lang3/StringUtils.java,1743,int searchLast = searchLen - 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/6/src/main/java/org/apache/commons/lang3/StringUtils.java,1742,int searchLen = searchChars.length;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/6/src/main/java/org/apache/commons/lang3/StringUtils.java,1741,int csLast = csLen - 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/6/src/main/java/org/apache/commons/lang3/StringUtils.java,1740,int csLen = cs.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/6/src/main/java/org/apache/commons/lang3/StringUtils.java,1737,if (cs == null || searchChars == null) {

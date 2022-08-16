@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,222,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,221,peg(calendar);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,219,this.year = (short) yyyy;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,215,if (calendar.get(Calendar.MONTH) == Calendar.JANUARY
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,212,int yyyy = calendar.get(Calendar.YEAR);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,211,this.week = (byte) Math.min(tempWeek, LAST_WEEK_IN_YEAR);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,205,if (tempWeek == 1
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,204,int tempWeek = calendar.get(Calendar.WEEK_OF_YEAR);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,199,calendar.setTime(time);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,198,Calendar calendar = Calendar.getInstance(zone, locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,195,if (locale == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,192,if (zone == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,189,if (time == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,188,public Week(Date time, TimeZone zone, Locale locale) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,176,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,175,this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,248,return this.week;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,415,return c.getTime().getTime() - 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,413,c.set(Calendar.MILLISECOND, 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,412,c.set(Calendar.SECOND, 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,411,c.set(Calendar.MINUTE, 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,410,c.set(Calendar.HOUR, 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,409,c.set(Calendar.DAY_OF_WEEK, c.getFirstDayOfWeek());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,408,c.set(Calendar.WEEK_OF_YEAR, this.week + 1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,407,c.set(Calendar.YEAR, this.year);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,406,c.clear();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,405,Calendar c = (Calendar) calendar.clone();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,390,return c.getTime().getTime();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,388,c.set(Calendar.MILLISECOND, 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,387,c.set(Calendar.SECOND, 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,386,c.set(Calendar.MINUTE, 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,385,c.set(Calendar.HOUR, 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,384,c.set(Calendar.DAY_OF_WEEK, c.getFirstDayOfWeek());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,383,c.set(Calendar.WEEK_OF_YEAR, this.week);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,382,c.set(Calendar.YEAR, this.year);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,381,c.clear();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,380,Calendar c = (Calendar) calendar.clone();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,290,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,289,this.lastMillisecond = getLastMillisecond(calendar);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,288,this.firstMillisecond = getFirstMillisecond(calendar);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,135,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,134,peg(Calendar.getInstance());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,133,this.year = (short) year;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,132,this.week = (byte) week;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,128,if ((week < FIRST_WEEK_IN_YEAR) && (week > LAST_WEEK_IN_YEAR)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,127,public Week(int week, int year) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/RegularTimePeriod.java,70,public abstract class RegularTimePeriod implements TimePeriod, Comparable,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,643,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,640,catch (NumberFormatException e) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,642,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,637,result = -1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,636,if ((result < 1) || (result > LAST_WEEK_IN_YEAR)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,635,result = Integer.parseInt(s);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,633,s = s.trim();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,632,s = s.replace('W', ' ');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,631,int result = -1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,618,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,615,catch (TimePeriodFormatException e) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,617,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,613,result = Year.parseYear(s);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,611,Year result = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,597,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,595,result = s.indexOf('.');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,594,if (result == -1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,592,result = s.indexOf(' ');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,591,if (result == -1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,589,result = s.indexOf(',');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,588,if (result == -1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,587,int result = s.indexOf('-');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,573,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,568,throw new TimePeriodFormatException(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,566,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,561,throw new TimePeriodFormatException(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,558,result = new Week(w, y);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,555,throw new TimePeriodFormatException(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,554,if (w == -1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,553,w = Week.stringToWeek(s1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,552,if (y != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,551,y = Week.evaluateAsYear(s2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,548,result = new Week(w, y);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,545,throw new TimePeriodFormatException(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,544,if (w == -1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,543,w = Week.stringToWeek(s2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,542,if (y != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,540,Year y = Week.evaluateAsYear(s1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,538,String s2 = s.substring(i + 1, s.length()).trim();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,537,String s1 = s.substring(0, i).trim();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,536,if (i != -1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,535,int i = Week.findSeparator(s);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,533,s = s.trim();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,530,if (s != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,529,Week result = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,512,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,509,result = 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,502,result = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,500,else if (o1 instanceof RegularTimePeriod) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,496,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,494,result = this.week - w.getWeek();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,493,if (result == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/8/source/org/jfree/data/time/Week.java,492,result = this.year - w.getYear().getYear();

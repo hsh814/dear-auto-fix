@@ -1,0 +1,82 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,1735,return ISODateTimeFormat.date().print(this);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,347,return instant;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,338,if (instant < iCutoverMillis) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,336,long instant = iGregorianChronology.getDateTimeMillis
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,331,if ((base = getBase()) != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,515,return type.getField(getChronology()).isSupported();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,496,return fieldType.getField(getChronology()).get(getLocalMillis());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,512,if (DATE_DURATION_TYPES.contains(durType) ||
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,511,DurationFieldType durType = type.getDurationType();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,508,if (type == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,493,if (isSupported(fieldType) == false) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,490,if (fieldType == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,612,return buf.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,611,printTo(buf, partial);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,610,StringBuffer buf = new StringBuffer(requirePrinter().estimatePrintedLength());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,536,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,535,printer.printTo(buf, partial, iLocale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,532,if (partial == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,531,DateTimePrinter printer = requirePrinter();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,576,return iLocalMillis == other.iLocalMillis;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,575,if (iChronology.equals(other.iChronology)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,574,LocalDate other = (LocalDate) partial;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,573,if (partial instanceof LocalDate) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,570,if (this == partial) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/field/BaseDurationField.java,150,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,404,return super.equals(obj);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/BasicChronology.java,518,return getWeeksInYear(year - 1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/BasicWeekOfWeekyearDateTimeField.java,111,return value > 52 ? getMaximumValue(instant) : 52;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/BasicWeekOfWeekyearDateTimeField.java,79,return 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,759,return parseLocalDateTime(text).toLocalDate();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDateTime.java,698,return new LocalDate(getLocalMillis(), getChronology());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/BasicWeekOfWeekyearDateTimeField.java,54,return iChronology.getWeekOfWeekyear(instant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,123,return getInstance(DateTimeZone.UTC, DEFAULT_CUTOVER, 4);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/ISODateTimeFormat.java,854,return yearMonthDay();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/ISODateTimeFormat.java,1333,return ymd;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/ISODateTimeFormat.java,1326,if (ymd == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,401,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,400,iLocalMillis = instant;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,399,iChronology = chronology;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,398,long instant = chronology.getDateTimeMillis(year, monthOfYear, dayOfMonth, 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,397,chronology = DateTimeUtils.getChronology(chronology).withUTC();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,396,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,808,return new LocalDateTime(millis, chrono);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,806,chrono = chrono.withZone(parsedZone);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,805,DateTimeZone parsedZone = DateTimeZone.forOffsetMillis(parsedOffset);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,804,int parsedOffset = bucket.getOffset();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,803,if (bucket.getZone() == null) {  // treat withOffsetParsed() as being true
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,802,long millis = bucket.computeMillis(true, text);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,801,if (newPos >= text.length()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,800,if (newPos >= 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,799,int newPos = parser.parseInto(bucket, text, 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,798,DateTimeParserBucket bucket = new DateTimeParserBucket(0, chrono, iLocale, iPivotYear, iDefaultYear);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,797,Chronology chrono = selectChronology(null).withUTC();  // always use UTC, avoiding DST gaps
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormatter.java,795,DateTimeParser parser = requireParser();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,531,builder.appendWeekOfWeekyear(tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,531,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeFormat.java,530,case 'w': // week of weekyear (number)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeFormat.java,530,builder.appendWeekOfWeekyear(tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/BasicChronology.java,329,return (int) ((firstWeekMillis2 - firstWeekMillis1) / DateTimeConstants.MILLIS_PER_WEEK);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/BasicChronology.java,328,long firstWeekMillis2 = getFirstWeekOfYearMillis(year + 1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/BasicChronology.java,327,long firstWeekMillis1 = getFirstWeekOfYearMillis(year);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,350,/**
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,350,return DateTimeZone.UTC;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,321,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,1031,//        }
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/DateTimeZone.java,1031,return oldInstant;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeParserBucket.java,173,return iPivotYear;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeParserBucket.java,173,return iOffset;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,307,return withZone(DateTimeZone.UTC);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeParserBucket.java,152,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/format/DateTimeParserBucket.java,152,return iZone;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,320,if (zone == getZone()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,317,if (zone == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/GJChronology.java,296,return DateTimeZone.UTC;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,287,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,286,iChronology = chronology;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,285,iLocalMillis = chronology.dayOfMonth().roundFloor(localMillis);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,284,chronology = chronology.withUTC();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,283,long localMillis = chronology.getZone().getMillisKeepLocal(DateTimeZone.UTC, instant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,281,chronology = DateTimeUtils.getChronology(chronology);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/LocalDate.java,280,public LocalDate(long instant, Chronology chronology) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/24/src/main/java/org/joda/time/chrono/BasicChronology.java,344,return jan1millis + (8 - jan1dayOfWeek)

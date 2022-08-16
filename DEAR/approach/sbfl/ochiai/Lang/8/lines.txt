@@ -1,0 +1,23 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,1089,return value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,1085,if (prior != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,1084,String prior = cTimeZoneDisplayCache.putIfAbsent(key, value);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,1083,value = tz.getDisplayName(daylight, style, locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,1081,if (value == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,1080,String value = cTimeZoneDisplayCache.get(key);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,1079,TimeZoneDisplayKey key = new TimeZoneDisplayKey(tz, daylight, style, locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,264,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,262,rule = new TimeZoneNameRule(mTimeZone, mLocale, TimeZone.SHORT);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,259,if (tokenLen >= 4) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,119,return cache.getInstance(pattern, null, null);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,450,return MODULO_HOUR_STRATEGY;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,221,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,220,rule = new TwelveHourField(selectNumberRule(Calendar.HOUR, tokenLen));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,478,caches[field]= new ConcurrentHashMap<Locale,Strategy>(3);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,446,return getLocaleSpecificStrategy(Calendar.AM_PM, definingCalendar);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,251,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,250,rule = new TextField(Calendar.AM_PM, AmPmStrings);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FormatCache.java,77,locale = Locale.getDefault();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,503,return strategy;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FormatCache.java,74,timeZone = TimeZone.getDefault();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,359,return new UnpaddedNumberField(field);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/8/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,346,return definingCalendar.getDisplayNames(field, Calendar.ALL_STYLES, locale);

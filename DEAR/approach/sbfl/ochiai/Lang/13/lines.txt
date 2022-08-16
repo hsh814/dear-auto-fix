@@ -1,0 +1,86 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,103,try {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,99,throw new SerializationException("ClassNotFoundException while reading cloned object data", ex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,98,} catch (ClassNotFoundException ex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationException.java,76,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationException.java,75,super(msg, cause);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,95,T readObject = (T) in.readObject();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,88,in = new ClassLoaderAwareObjectInputStream(bais, object.getClass().getClassLoader());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,85,ClassLoaderAwareObjectInputStream in = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,83,ByteArrayInputStream bais = new ByteArrayInputStream(objectData);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,82,byte[] objectData = serialize(object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,79,if (object == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,164,return baos.toByteArray();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,163,serialize(obj, baos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,162,ByteArrayOutputStream baos = new ByteArrayOutputStream(512);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,151,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,149,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,145,out.close();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,144,if (out != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,138,out.writeObject(obj);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,137,out = new ObjectOutputStream(outputStream);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,134,ObjectOutputStream out = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,131,if (outputStream == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,222,return deserialize(bais);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,221,ByteArrayInputStream bais = new ByteArrayInputStream(objectData);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,219,throw new IllegalArgumentException("The byte[] must not be null");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,218,if (objectData == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,199,try {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,197,throw new SerializationException(ex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,196,} catch (IOException ex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,195,throw new SerializationException(ex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,194,} catch (ClassNotFoundException ex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,203,} catch (IOException ex) { // NOPMD
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,205,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,201,in.close();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,200,if (in != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,192,return in.readObject();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,191,in = new ObjectInputStream(inputStream);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,188,ObjectInputStream in = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,186,throw new IllegalArgumentException("The InputStream must not be null");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,185,if (inputStream == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,143,try {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,141,throw new SerializationException(ex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,140,} catch (IOException ex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,150,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,147,} catch (IOException ex) { // NOPMD
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,132,throw new IllegalArgumentException("The OutputStream must not be null");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,101,throw new SerializationException("IOException while reading cloned object data", ex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,100,} catch (IOException ex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,108,throw new SerializationException("IOException on closing cloned object data InputStream.", ex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,107,} catch (IOException ex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,109,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,105,in.close();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,104,if (in != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,96,return readObject;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,80,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,60,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,59,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationException.java,64,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationException.java,63,super(cause);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationException.java,53,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationException.java,52,super(msg);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationException.java,43,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationException.java,42,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,103,try {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,99,throw new SerializationException("ClassNotFoundException while reading cloned object data", ex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,98,} catch (ClassNotFoundException ex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationException.java,76,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationException.java,75,super(msg, cause);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,95,T readObject = (T) in.readObject();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,88,in = new ClassLoaderAwareObjectInputStream(bais, object.getClass().getClassLoader());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,85,ClassLoaderAwareObjectInputStream in = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,83,ByteArrayInputStream bais = new ByteArrayInputStream(objectData);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,82,byte[] objectData = serialize(object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,79,if (object == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,164,return baos.toByteArray();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,163,serialize(obj, baos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,162,ByteArrayOutputStream baos = new ByteArrayOutputStream(512);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,151,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,149,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,145,out.close();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,144,if (out != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,138,out.writeObject(obj);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,137,out = new ObjectOutputStream(outputStream);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,134,ObjectOutputStream out = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,131,if (outputStream == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/13/src/main/java/org/apache/commons/lang3/SerializationUtils.java,222,return deserialize(bais);

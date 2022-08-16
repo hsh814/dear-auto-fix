@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,641,return result.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,639,result.append(StringUtils.defaultString(appendToEnd));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,638,result.append(str.substring(0, index));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,636,result.append(StringUtils.defaultString(appendToEnd));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,635,result.append(str.substring(0, upper));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,634,} else if (index > upper) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,632,result.append(StringUtils.defaultString(appendToEnd));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,631,if (upper != str.length()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,629,result.append(str.substring(0, upper));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,628,if (index == -1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,627,int index = StringUtils.indexOf(str, " ", lower);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,626,StringBuffer result = new StringBuffer();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,623,upper = lower;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,622,if (upper < lower) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,619,upper = str.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,618,if (upper == -1 || upper > str.length()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,611,return StringUtils.EMPTY;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,610,if (str.length() == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,608,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,607,if (str == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/StringUtils.java,858,return str.indexOf(searchStr, startPos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/StringUtils.java,855,if (searchStr.length() == 0 && startPos >= str.length()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/StringUtils.java,851,if (str == null || searchStr == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/StringUtils.java,5279,return str == null ? EMPTY : str;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,581,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,578,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,577,if (ch == delimiters[i]) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,576,for (int i = 0, isize = delimiters.length; i < isize; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,574,return Character.isWhitespace(ch);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,573,if (delimiters == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,561,return new String(buf, 0, count);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,556,lastWasGap = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,555,buf[count++] = ch;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,554,} else if (lastWasGap) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,553,lastWasGap = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,552,if (isDelimiter(ch, delimiters)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,550,char ch = str.charAt(i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,549,for (int i = 0; i < strLen; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,548,boolean lastWasGap = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,547,int count = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,546,char[] buf = new char[strLen / 2 + 1];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,545,int strLen = str.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,543,return "";
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,542,if (delimiters != null && delimiters.length == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,540,return str;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,539,if (str == null || str.length() == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,508,return initials(str, null);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,481,return buffer.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,479,whitespace = Character.isWhitespace(ch);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,478,buffer.append(tmp);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,476,tmp = ch;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,473,tmp = Character.toUpperCase(ch);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,471,tmp = Character.toTitleCase(ch);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,470,if (whitespace) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,469,} else if (Character.isLowerCase(ch)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,468,tmp = Character.toLowerCase(ch);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,467,} else if (Character.isTitleCase(ch)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,466,tmp = Character.toLowerCase(ch);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,465,if (Character.isUpperCase(ch)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,464,ch = str.charAt(i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,463,for (int i = 0; i < strLen; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,461,char tmp = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,460,char ch = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,459,boolean whitespace = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,457,StringBuffer buffer = new StringBuffer(strLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,455,return str;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,454,if (str == null || (strLen = str.length()) == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,426,return buffer.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,423,buffer.append(ch);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,421,uncapitalizeNext = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,420,buffer.append(Character.toLowerCase(ch));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,419,} else if (uncapitalizeNext) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,418,uncapitalizeNext = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,417,buffer.append(ch);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,416,if (isDelimiter(ch, delimiters)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,414,char ch = str.charAt(i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,413,for (int i = 0; i < strLen; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,412,boolean uncapitalizeNext = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,411,StringBuffer buffer = new StringBuffer(strLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,410,int strLen = str.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,408,return str;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,407,if (str == null || str.length() == 0 || delimLen == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,406,int delimLen = (delimiters == null ? -1 : delimiters.length);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,377,return uncapitalize(str, null);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,355,return capitalize(str, delimiters);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,354,str = str.toLowerCase();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,352,return str;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,351,if (str == null || str.length() == 0 || delimLen == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,350,int delimLen = (delimiters == null ? -1 : delimiters.length);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,320,return capitalizeFully(str, null);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,296,return buffer.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,293,buffer.append(ch);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,291,capitalizeNext = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,290,buffer.append(Character.toTitleCase(ch));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,289,} else if (capitalizeNext) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,288,capitalizeNext = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,287,buffer.append(ch);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,286,if (isDelimiter(ch, delimiters)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,284,char ch = str.charAt(i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/45/src/java/org/apache/commons/lang/WordUtils.java,283,for (int i = 0; i < strLen; i++) {

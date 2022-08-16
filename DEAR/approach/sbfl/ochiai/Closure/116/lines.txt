@@ -1,0 +1,77 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/rhino/Node.java,1459,return res;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/rhino/Node.java,1446,return new NodeMismatch(this, node2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/rhino/Node.java,1430,return "Node tree inequality:" +
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,744,cArg = cArg.getNext();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,735,fnParam = fnParam.getNext();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/ExpressionDecomposer.java,213,} else if (parentType == Token.OBJECTLIT) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/ExpressionDecomposer.java,198,if (isExpressionTreeUnsafe(functionExpression, state.sideEffects)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/ExpressionDecomposer.java,196,decomposeSubExpressions(functionExpression.getNext(), child, state);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/ExpressionDecomposer.java,195,Node functionExpression = parent.getFirstChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,727,if (NodeUtil.mayEffectMutableState(cArg, compiler)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,741,if (NodeUtil.mayHaveSideEffects(cArg, compiler)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,722,if (cArg != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,740,if (cArg != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,721,if (fnParam != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/rhino/Token.java,210,case GETELEM:         return "GETELEM";
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,233,return (type == Token.VAR || type == Token.INC || type == Token.DEC ||
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,232,int type = parent.getType();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/rhino/Token.java,202,case NOT:             return "NOT";
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/NodeUtil.java,2973,return NodeUtil.isImmutableValue(value.getLastChild())
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,200,if (inInnerFunction || canNameValueChange(n, parent)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,74,return replacement;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,73,parent.replaceChild(node, replacement);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,72,Node replacement = replacementTemplate.cloneTree();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,67,Preconditions.checkState(!parent.isFunction()
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,748,return CanInlineResult.YES;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,719,while (cArg != null || fnParam != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,718,Node fnParam = NodeUtil.getFunctionParameters(fnNode).getFirstChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,704,if (!callNode.getFirstChild().isName()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,699,Node cArg = callNode.getFirstChild().getNext();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,695,Node block = fnNode.getLastChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,691,if (!isDirectCallNodeReplacementPossible(fnNode)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,208,return canInlineReferenceDirectly(callNode, fnNode);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,796,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,555,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,329,flags.setMutatesArguments();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,282,newExpression = safeReturnNode.removeFirstChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,281,Preconditions.checkArgument(safeReturnNode == inlineResult);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,279,Node inlineResult = FunctionArgumentInjector.inject(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,278,Node safeReturnNode = returnNode.cloneTree();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,275,Preconditions.checkArgument(returnNode.isReturn());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,274,Node returnNode = block.getFirstChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,499,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,498,set.add(n.getString());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,132,cArg = cArg.getNext();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,131,argMap.put(fnArg.getString(), cArg);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,286,return newExpression;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,285,callParentNode.replaceChild(callNode, newExpression);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,270,if (!block.hasChildren()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,265,Map<String, Node> argMap =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,258,Node callParentNode = callNode.getParent();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,257,Node block = fnNode.getLastChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,245,return inlineReturnValue(callNode, fnNode);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/NodeUtil.java,842,if (n.getFirstChild() != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/NodeUtil.java,770,return checkForStateChangeHelper(n, true, compiler);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,137,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,130,if (cArg != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/rhino/Token.java,232,case ASSIGN:          return "ASSIGN";
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,199,if (names.contains(n.getString())) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,553,if (block.getFirstChild().isReturn()
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionArgumentInjector.java,290,safe = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/rhino/Token.java,184,case RETURN:          return "RETURN";
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,551,} else if (block.hasOneChild()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/AstValidator.java,242,return;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/AstValidator.java,241,validateBinaryOp(n);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/rhino/Node.java,1649,return child;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/rhino/Node.java,1647,removeChild(child);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/rhino/Node.java,1646,if (child != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/rhino/Node.java,1645,Node child = first;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/InlineFunctions.java,787,if (isCandidateUsage(node)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,548,if (!block.hasChildren()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/FunctionInjector.java,544,Node block = NodeUtil.getFunctionBody(fnNode);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/InlineFunctions.java,257,fs.inlineDirectly(true);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/NodeUtil.java,1641,return n.isFor()
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/rhino/Node.java,2302,return this.getType() == Token.FOR;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/CodeGenerator.java,509,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/CodeGenerator.java,508,add("]");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/116/src/com/google/javascript/jscomp/CodeGenerator.java,507,add(first.getNext());

@@ -1,0 +1,64 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java,1030,return append0(TimeZoneId.INSTANCE, TimeZoneId.INSTANCE);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeParserBucket.java,161,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeParserBucket.java,160,iZone = zone;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeParserBucket.java,159,iSavedState = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java,1095,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java,1094,DateTimeFormat.appendPatternTo(this, pattern);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,378,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,377,parsePatternTo(builder, pattern);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/DateTime.java,409,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/DateTime.java,407,super(year, monthOfYear, dayOfMonth,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormatter.java,866,throw new IllegalArgumentException(FormatUtils.createErrorMessage(text, newPos));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,509,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,508,builder.appendMinuteOfHour(tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,462,indexRef[0]--;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,458,if (isNumericToken(parseToken(pattern, indexRef))) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,457,indexRef[0]++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,471,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,470,builder.appendYear(tokenLen, maxDigits);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,662,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,635,switch (c) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,634,char c = token.charAt(0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,633,if (tokenLen > 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,632,int tokenLen = token.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,500,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,499,builder.appendHourOfDay(tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,488,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,486,builder.appendMonthOfYear(tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,477,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,465,switch (c) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,456,if (i + 1 < length) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,453,int maxDigits = 9;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,491,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,490,builder.appendDayOfMonth(tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,424,if (tokenLen == 2) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/DateTimeFormat.java,479,if (tokenLen >= 3) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/FormatUtils.java,373,return "Invalid format: \"" + sampleText + "\" is malformed at \"" +
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/format/FormatUtils.java,369,if (errorPos >= text.length()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,205,return w * 1000L;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,204,w |= (in.readUnsignedByte());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,203,w |= (in.readUnsignedByte()) << 8;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,202,w |= (in.readUnsignedByte()) << 16;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,201,w |= (in.readUnsignedByte()) << 24;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,200,long w = (((long)v) << (64 - 6)) >> (64 - 38);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,240,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,237,in.close();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,236,if (in != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,229,return tz;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,228,iZoneInfoMap.put(id, new SoftReference<DateTimeZone>(tz));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,227,DateTimeZone tz = DateTimeZoneBuilder.readFrom(in, id);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,226,in = openResource(id);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,224,InputStream in = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,147,return loadZoneData(id);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,209,return in.readLong();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,196,return v * 60000L;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,195,v |= (in.readUnsignedByte());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,194,v |= (in.readUnsignedByte()) << 8;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,193,v |= (in.readUnsignedByte()) << 16;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,192,v = (v << (32 - 6)) >> (32 - 30);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,119,return CachedDateTimeZone.forZone(PrecalculatedZone.readFrom(in, id));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,205,if (in == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,201,in = iLoader.getResourceAsStream(path);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,200,if (iLoader != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,199,String path = iResourcePath.concat(name);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/20/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,188,return v * (30 * 60000L);

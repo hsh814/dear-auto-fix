@@ -1,0 +1,183 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,314,throw new IllegalArgumentException("The datetime zone id is not recognised: " + id);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,314,dtz = cProvider.getZone(convId);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,595,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,595,cZoneIdConversion = map;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,594,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,594,map.put("NST", "Pacific/Auckland");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,593,public Chronology withUTC() {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,593,map.put("SST", "Pacific/Guadalcanal");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,592,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,592,map.put("AET", "Australia/Sydney");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,591,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,591,map.put("ACT", "Australia/Darwin");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,590,public DateTimeZone getZone() {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,590,map.put("JST", "Asia/Tokyo");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,589,chrono = new BaseChronology() {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,589,map.put("CTT", "Asia/Shanghai");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,588,// initialization. Offset parser doesn't need it anyhow.
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,588,map.put("VST", "Asia/Saigon");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,587,// Can't use a real chronology if called during class
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,587,map.put("BST", "Asia/Dhaka");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,586,} else {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,586,map.put("IST", "Asia/Calcutta");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,585,chrono = ISOChronology.getInstanceUTC();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,585,map.put("PLT", "Asia/Karachi");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,584,if (cDefault != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,584,map.put("NET", "Asia/Yerevan");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,583,Chronology chrono;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,583,map.put("MET", "Asia/Tehran");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,582,private static int parseOffset(String str) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,582,map.put("EAT", "Africa/Addis_Ababa");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,581,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,581,map.put("EET", "Europe/Bucharest");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,580,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,580,map.put("CAT", "Africa/Harare");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,579,return (String) map.get(id);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,579,map.put("ART", "Africa/Cairo");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,578,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,578,map.put("ECT", "Europe/Paris");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,577,cZoneIdConversion = map;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,577,map.put("WET", "Europe/London");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,576,map.put("NST", "Pacific/Auckland");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,576,map.put("BET", "America/Sao_Paulo");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,575,map.put("SST", "Pacific/Guadalcanal");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,575,map.put("AGT", "America/Buenos_Aires");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,574,map.put("AET", "Australia/Sydney");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,574,map.put("CNT", "America/St_Johns");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,573,map.put("ACT", "Australia/Darwin");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,573,map.put("PRT", "America/Puerto_Rico");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,572,map.put("JST", "Asia/Tokyo");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,572,map.put("IET", "America/Indianapolis");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,571,map.put("CTT", "Asia/Shanghai");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,571,map.put("EST", "America/New_York");  // JDK 1.1 compatible
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,570,map.put("VST", "Asia/Saigon");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,570,map.put("CST", "America/Chicago");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,569,map.put("BST", "Asia/Dhaka");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,569,map.put("PNT", "America/Phoenix");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,568,map.put("IST", "Asia/Calcutta");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,568,map.put("MST", "America/Denver");  // JDK 1.1 compatible
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,567,map.put("PLT", "Asia/Karachi");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,567,map.put("PST", "America/Los_Angeles");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,566,map.put("NET", "Asia/Yerevan");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,566,map.put("AST", "America/Anchorage");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,565,map.put("MET", "Asia/Tehran");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,565,map.put("HST", "Pacific/Honolulu");  // JDK 1.1 compatible
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,564,map.put("EAT", "Africa/Addis_Ababa");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,564,map.put("MIT", "Pacific/Apia");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,563,map.put("EET", "Europe/Bucharest");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,563,map.put("GMT", "UTC");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,562,map.put("CAT", "Africa/Harare");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,562,map = new HashMap<String, String>();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,320,*
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,320,return dtz;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,597,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,597,return map.get(id);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,560,map.put("ECT", "Europe/Paris");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,560,if (map == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,559,map.put("WET", "Europe/London");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,559,Map<String, String> map = cZoneIdConversion;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,319,* Gets the zone using a fixed offset amount.
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,319,if (dtz != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,316,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,316,if (dtz == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,313,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,313,if (convId != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,312,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,312,String convId = getConvertedId(id);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,311,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,311,DateTimeZone dtz = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,306,return DateTimeZone.UTC;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,306,if (id.equals("UTC")) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,305,if (offset == 0L) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,305,final String id = zone.getID();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,302,if (convId.startsWith("GMT+") || convId.startsWith("GMT-")) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,302,if (zone == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,147,*
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,147,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,159,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,159,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,157,if (zone == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,157,cDefault = zone = temp;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,154,//        if (sm != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,154,if (temp == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,153,//        SecurityManager sm = System.getSecurityManager();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,153,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,148,* @param zone  the default datetime zone object, must not be null
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,148,if (temp == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,143,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,143,temp = forID(id);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,142,return cDefault;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,142,if (id != null) {  // null check avoids stack overflow
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,141,public static DateTimeZone getDefault() {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,141,String id = System.getProperty("user.timezone");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,138,*
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,138,DateTimeZone temp = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,137,* Gets the default time zone.
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,137,if (zone == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,136,/**
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,136,zone = cDefault;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,135,//-----------------------------------------------------------------------
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,135,synchronized(DateTimeZone.class) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,174,return new TreeSet<String>(iZoneInfoMap.keySet());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,124,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,123,iZoneInfoMap = loadZoneInfoMap(openResource("ZoneInfoMap"));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,121,iLoader = loader;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,118,loader = getClass().getClassLoader();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,117,if (loader == null && !favorSystemLoader) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,115,iResourcePath = resourcePath;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,114,iFileDir = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,111,resourcePath += '/';
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,110,if (!resourcePath.endsWith("/")) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,107,if (resourcePath == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,106,{
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,83,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,82,this(resourcePath, null, false);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/DefaultNameProvider.java,40,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/DefaultNameProvider.java,37,private HashMap<Locale, Map<String, Map<String, Object>>> iByLocaleCache = createCache();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/tz/DefaultNameProvider.java,39,public DefaultNameProvider() {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,548,map.put("AST", "America/Anchorage");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,548,return nameProvider;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,545,map.put("GMT", "UTC");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,545,nameProvider = new DefaultNameProvider();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,544,map = new HashMap();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,544,if (nameProvider == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,542,if (map == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,542,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,532,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,532,if (providerClass != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,531,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,531,String providerClass = System.getProperty("org.joda.time.DateTimeZone.NameProvider");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,529,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,529,NameProvider nameProvider = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,518,//                    Thread thread = Thread.currentThread();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,518,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,517,//                } catch (Exception ex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,517,cNameProvider = nameProvider;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,515,//                try {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,515,nameProvider = getDefaultNameProvider();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,514,//            if (providerClass != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,514,if (nameProvider == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,473,* <p>
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,473,return provider;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,469,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,469,if (provider == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,466,*/
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,466,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,462,* The name provider is a pluggable instance factory that supplies the
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,462,provider = new ZoneInfoProvider("org/joda/time/tz/data");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,460,* Gets the name provider factory.
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,460,if (provider == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,458,//-----------------------------------------------------------------------
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,458,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,448,//            }
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,448,if (providerClass != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,446,//                Thread thread = Thread.currentThread();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,446,String providerClass =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,443,//            try {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,443,Provider provider = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,431,//                try {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,431,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,430,//            if (providerClass != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,430,cAvailableIDs = ids;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,429,//                System.getProperty("org.joda.time.DateTimeZone.Provider");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/23/src/main/java/org/joda/time/DateTimeZone.java,429,cProvider = provider;

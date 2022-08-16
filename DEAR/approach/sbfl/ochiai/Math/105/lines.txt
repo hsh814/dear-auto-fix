@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,264,return sumYY - sumXY * sumXY / sumXX;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,121,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,120,n++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,119,sumY += y;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,118,sumX += x;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,116,ybar += dy / (double) (n + 1.0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,115,xbar += dx / (double) (n + 1.0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,114,sumXY += dx * dy * (double) n / (double) (n + 1.0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,113,sumYY += dy * dy * (double) n / (double) (n + 1.0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,112,sumXX += dx * dx * (double) n / (double) (n + 1.0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,111,double dy = y - ybar;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,110,double dx = x - xbar;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,108,ybar = y;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,107,xbar = x;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,106,if (n == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,90,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,81,private double ybar = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,78,private double xbar = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,75,private long n = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,72,private double sumXY = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,69,private double sumYY = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,66,private double sumY = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,63,private double sumXX = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,60,private double sumX = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,89,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,517,return DistributionFactory.newInstance().createTDistribution(n - 2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,507,return slope * slope * sumXX;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,497,return (sumY - slope * sumX) / ((double) n);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,482,return 2d* (1.0 - getTDistribution().cumulativeProbability(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,456,return getSlopeStdErr() *
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,454,throw new IllegalArgumentException();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,453,if (alpha >= 1 || alpha <= 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,417,return getSlopeConfidenceInterval(0.05d);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,390,return Math.sqrt(getMeanSquareError() / sumXX);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,375,return Math.sqrt(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,360,return (ssto - getSumSquaredErrors()) / ssto;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,359,double ssto = getTotalSumSquares();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,341,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,339,result = -result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,338,if (b1 < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,337,double result = Math.sqrt(getRSquare());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,336,double b1 = getSlope();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,318,return getSumSquaredErrors() / (double) (n - 2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,316,return Double.NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,315,if (n < 3) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,301,return getRegressionSumSquares(getSlope());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,281,return sumYY;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,279,return Double.NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,278,if (n < 2) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,231,return sumXY / sumXX;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,229,return Double.NaN; //not enough variation in x
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,228,if (Math.abs(sumXX) < 10 * Double.MIN_VALUE) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,226,return Double.NaN; //not enough data
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,225,if (n < 2) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,205,return getIntercept(getSlope());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,185,return getIntercept(b1) + b1 * x;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,184,double b1 = getSlope();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,163,return n;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,155,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,154,n = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,153,sumXY = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,152,sumYY = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,151,sumY = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,150,sumXX = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,149,sumX = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,143,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,141,addData(data[i][0], data[i][1]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,140,for (int i = 0; i < data.length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,264,return sumYY - sumXY * sumXY / sumXX;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,121,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,120,n++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,119,sumY += y;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,118,sumX += x;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,116,ybar += dy / (double) (n + 1.0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,115,xbar += dx / (double) (n + 1.0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,114,sumXY += dx * dy * (double) n / (double) (n + 1.0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,113,sumYY += dy * dy * (double) n / (double) (n + 1.0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,112,sumXX += dx * dx * (double) n / (double) (n + 1.0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,111,double dy = y - ybar;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,110,double dx = x - xbar;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,108,ybar = y;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,107,xbar = x;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,106,if (n == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,90,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,81,private double ybar = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,78,private double xbar = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,75,private long n = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,72,private double sumXY = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,69,private double sumYY = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,66,private double sumY = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,63,private double sumXX = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,60,private double sumX = 0d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,89,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,517,return DistributionFactory.newInstance().createTDistribution(n - 2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,507,return slope * slope * sumXX;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,497,return (sumY - slope * sumX) / ((double) n);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,482,return 2d* (1.0 - getTDistribution().cumulativeProbability(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,456,return getSlopeStdErr() *
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,454,throw new IllegalArgumentException();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/105/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java,453,if (alpha >= 1 || alpha <= 0) {

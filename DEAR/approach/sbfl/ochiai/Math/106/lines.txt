@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,205,return new Fraction(((Math.abs(w) * d) + n) * MathUtils.sign(w), d);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,204,int d = den.intValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,203,int n = num.intValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,202,int w = whole.intValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,192,if (den == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,191,Number den = getDenominatorFormat().parse(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,188,parseAndIgnoreWhitespace(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,177,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,170,switch (c) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,169,char c = parseNextCharacter(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,168,int startIndex = pos.getIndex();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,292,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,291,pos.setErrorIndex(startIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,290,pos.setIndex(initialIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,157,if (num == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,156,Number num = getNumeratorFormat().parse(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,153,parseAndIgnoreWhitespace(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,144,if (whole == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,143,Number whole = getWholeFormat().parse(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,140,parseAndIgnoreWhitespace(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,137,int initialIndex = pos.getIndex();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,249,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,382,ret = c;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,278,switch (c) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,277,char c = parseNextCharacter(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,276,int startIndex = pos.getIndex();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,133,if (ret != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,132,Fraction ret = super.parse(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,115,return wholeFormat;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,386,return ret;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,381,if (index < n) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,379,pos.setIndex(index);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,378,} while (Character.isWhitespace(c) && index < n);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,377,c = source.charAt(index++);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,374,if (index < n) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,372,char ret = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,371,int n = source.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,370,int index = pos.getIndex();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,361,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,360,pos.setIndex(pos.getIndex() - 1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,359,parseNextCharacter(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,267,if (num == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,266,Number num = getNumeratorFormat().parse(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,263,parseAndIgnoreWhitespace(source, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,260,int initialIndex = pos.getIndex();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,245,if (parsePosition.getIndex() == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,244,Fraction result = parse(source, parsePosition);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,243,ParsePosition parsePosition = new ParsePosition(0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,224,return denominatorFormat;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,232,return numeratorFormat;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,220,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,219,this.wholeFormat = format;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,215,if (format == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,74,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,73,setWholeFormat(wholeFormat);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,72,super(numeratorFormat, denominatorFormat);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,59,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,58,this(format, (NumberFormat)format.clone(), (NumberFormat)format.clone());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,156,return nf;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,155,nf.setParseIntegerOnly(true);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,154,nf.setMaximumFractionDigits(0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,153,NumberFormat nf = NumberFormat.getNumberInstance(locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,132,return new ProperFractionFormat(f);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,131,NumberFormat f = getDefaultNumberFormat(locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,114,return new FractionFormat(f);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,113,NumberFormat f = getDefaultNumberFormat(locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,77,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,76,this.denominatorFormat = denominatorFormat;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,75,this.numeratorFormat = numeratorFormat;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,74,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,63,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/FractionFormat.java,62,this(format, (NumberFormat)format.clone());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,216,throw new IllegalArgumentException(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,197,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,196,pos.setIndex(initialIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,184,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,183,pos.setErrorIndex(startIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,182,pos.setIndex(initialIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,174,return new Fraction(num.intValue(), 1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,162,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,161,pos.setIndex(initialIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,149,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,148,pos.setIndex(initialIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,134,return ret;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,107,return toAppendTo;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,104,getDenominatorFormat().format(den, toAppendTo,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,103,toAppendTo.append(" / ");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,102,getNumeratorFormat().format(num, toAppendTo, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,100,num = Math.abs(num);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,99,toAppendTo.append(' ');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,98,getWholeFormat().format(whole, toAppendTo, pos);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,97,if (whole != 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,95,num = num % den;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,94,int whole = num / den;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,93,int den = fraction.getDenominator();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,92,int num = fraction.getNumerator();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,90,pos.setEndIndex(0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,89,pos.setBeginIndex(0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,49,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/106/src/java/org/apache/commons/math/fraction/ProperFractionFormat.java,48,this(getDefaultNumberFormat());

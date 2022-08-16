@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,194,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,191,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,190,resultSet.add(new Cluster<T>(p));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,189,final T p = pointSet.remove(i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,188,if (dx2[i] >= r) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,187,for (int i = 0 ; i < dx2.length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,186,final double r = random.nextDouble() * sum;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,181,dx2[i] = sum;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,180,sum += d * d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,179,final double d = p.distanceFrom(nearest.getCenter());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,178,final Cluster<T> nearest = getNearestCluster(resultSet, p);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,177,final T p = pointSet.get(i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,176,for (int i = 0; i < pointSet.size(); i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,175,int sum = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,134,return clusters;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,70,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,69,this(random, EmptyClusterStrategy.LARGEST_VARIANCE);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,330,return minCluster;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,329,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,327,minCluster = c;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,326,minDistance = distance;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,325,if (distance < minDistance) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,324,final double distance = point.distanceFrom(c.getCenter());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,323,for (final Cluster<T> c : clusters) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,322,Cluster<T> minCluster = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,321,double minDistance = Double.MAX_VALUE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,196,return resultSet;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,172,while (resultSet.size() < k) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,171,final double[] dx2 = new double[pointSet.size()];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,169,resultSet.add(new Cluster<T>(firstPoint));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,168,final T firstPoint = pointSet.remove(random.nextInt(pointSet.size()));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,165,final List<Cluster<T>> resultSet = new ArrayList<Cluster<T>>();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,164,final List<T> pointSet = new ArrayList<T>(points);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,150,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,149,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,148,cluster.addPoint(p);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,147,Cluster<T> cluster = getNearestCluster(clusters, p);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,146,for (final T p : points) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,100,for (int count = 0; count < max; count++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,99,final int max = (maxIterations < 0) ? Integer.MAX_VALUE : maxIterations;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,96,assignPointsToClusters(clusters, points);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,95,List<Cluster<T>> clusters = chooseInitialCenters(points, k, random);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,81,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,80,this.emptyStrategy = emptyStrategy;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,79,this.random        = random;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,78,public KMeansPlusPlusClusterer(final Random random, final EmptyClusterStrategy emptyStrategy) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,86,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,85,if (point[i] != otherPoint[i]) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,84,for (int i = 0; i < point.length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,81,if (point.length != otherPoint.length) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,80,final int[] otherPoint = ((EuclideanIntegerPoint) other).getPoint();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,77,if (!(other instanceof EuclideanIntegerPoint)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,57,return MathUtils.distance(point, p.getPoint());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,52,return point;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,45,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,44,this.point = point;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java,43,public EuclideanIntegerPoint(final int[] point) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,71,return center;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,56,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,55,points.add(point);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,48,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,47,points = new ArrayList<T>();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,46,this.center = center;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java,45,public Cluster(final T center) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/FastMath.java,277,return Math.sqrt(a);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/MathUtils.java,1878,return FastMath.sqrt(sum);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/MathUtils.java,1876,sum += dp * dp;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/MathUtils.java,1875,final double dp = p1[i] - p2[i];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/MathUtils.java,1874,for (int i = 0; i < p1.length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/util/MathUtils.java,1873,double sum = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,307,return selectedCluster.getPoints().remove(selectedPoint);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,304,throw new ConvergenceException(LocalizedFormats.EMPTY_CLUSTER_IN_K_MEANS);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,303,if (selectedCluster == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,300,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,296,selectedPoint   = i;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,295,selectedCluster = cluster;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,294,maxDistance     = distance;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,293,if (distance > maxDistance) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,292,final double distance = points.get(i).distanceFrom(center);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,291,for (int i = 0; i < points.size(); ++i) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,290,final List<T> points = cluster.getPoints();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,289,final T center = cluster.getCenter();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,286,for (final Cluster<T> cluster : clusters) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,285,int selectedPoint = -1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,284,Cluster<T> selectedCluster = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,283,double maxDistance = Double.NEGATIVE_INFINITY;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,271,return selectedPoints.remove(random.nextInt(selectedPoints.size()));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,270,final List<T> selectedPoints = selected.getPoints();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,266,throw new ConvergenceException(LocalizedFormats.EMPTY_CLUSTER_IN_K_MEANS);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,265,if (selected == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,262,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,259,selected = cluster;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,258,maxNumber = number;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,257,if (number > maxNumber) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,254,final int number = cluster.getPoints().size();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,251,for (final Cluster<T> cluster : clusters) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,250,Cluster<T> selected = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,249,int maxNumber = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,237,return selectedPoints.remove(random.nextInt(selectedPoints.size()));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java,236,final List<T> selectedPoints = selected.getPoints();

@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,65,return " title=\"" + toolTipText
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,55,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,54,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/OverLIBToolTipTagFragmentGenerator.java,66,return " onMouseOver=\"return overlib('"
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/OverLIBToolTipTagFragmentGenerator.java,56,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/OverLIBToolTipTagFragmentGenerator.java,55,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,242,return result.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,239,result.append(c);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,236,result.append("&#092;");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,235,else if (c == '\\') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,233,result.append("&#39;");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,232,else if (c == '\'') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,230,result.append("&gt;");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,229,else if (c == '>') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,227,result.append("&lt;");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,226,else if (c == '<') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,224,result.append("&quot;");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,223,else if (c == '\"') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,221,result.append("&amp;");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,220,if (c == '&') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,219,char c = input.charAt(i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,218,for (int i = 0; i < length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,217,int length = input.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,216,StringBuffer result = new StringBuffer();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,214,throw new IllegalArgumentException("Null 'input' argument.");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,213,if (input == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,198,return sb.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,197,sb.append("</map>");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,192,sb.append(StringUtilities.getLineSeparator());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,191,sb.append(area);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,190,if (area.length() > 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,187,String area = entity.getImageMapAreaTag(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,185,if (entity.getToolTipText() != null
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,184,ChartEntity entity = entities.getEntity(i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,183,for (int i = count - 1; i >= 0; i--) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,182,int count = entities.getEntityCount();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,181,if (entities != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,180,EntityCollection entities = info.getEntityCollection();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,179,sb.append(StringUtilities.getLineSeparator());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,177,sb.append("<map id=\"" + htmlEscape(name) + "\" name=\""
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,176,StringBuffer sb = new StringBuffer();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,152,return ImageMapUtilities.getImageMap(name, info,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,140,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,138,writer.println(ImageMapUtilities.getImageMap(name, info,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,115,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,111,ImageMapUtilities.writeImageMap(writer, name, info,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,108,toolTipTagFragmentGenerator
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,104,toolTipTagFragmentGenerator
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,103,if (useOverLibForToolTips) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,102,ToolTipTagFragmentGenerator toolTipTagFragmentGenerator = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,83,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,79,ImageMapUtilities.writeImageMap(writer, name, info,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,63,public class ImageMapUtilities {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,65,return " title=\"" + toolTipText
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,55,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,54,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/OverLIBToolTipTagFragmentGenerator.java,66,return " onMouseOver=\"return overlib('"
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/OverLIBToolTipTagFragmentGenerator.java,56,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/OverLIBToolTipTagFragmentGenerator.java,55,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,242,return result.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,239,result.append(c);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,236,result.append("&#092;");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,235,else if (c == '\\') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,233,result.append("&#39;");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,232,else if (c == '\'') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,230,result.append("&gt;");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,229,else if (c == '>') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,227,result.append("&lt;");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,226,else if (c == '<') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,224,result.append("&quot;");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,223,else if (c == '\"') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,221,result.append("&amp;");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,220,if (c == '&') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,219,char c = input.charAt(i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,218,for (int i = 0; i < length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,217,int length = input.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,216,StringBuffer result = new StringBuffer();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,214,throw new IllegalArgumentException("Null 'input' argument.");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,213,if (input == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,198,return sb.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,197,sb.append("</map>");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,192,sb.append(StringUtilities.getLineSeparator());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,191,sb.append(area);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,190,if (area.length() > 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,187,String area = entity.getImageMapAreaTag(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,185,if (entity.getToolTipText() != null
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,184,ChartEntity entity = entities.getEntity(i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,183,for (int i = count - 1; i >= 0; i--) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,182,int count = entities.getEntityCount();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,181,if (entities != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,180,EntityCollection entities = info.getEntityCollection();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,179,sb.append(StringUtilities.getLineSeparator());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,177,sb.append("<map id=\"" + htmlEscape(name) + "\" name=\""
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,176,StringBuffer sb = new StringBuffer();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,152,return ImageMapUtilities.getImageMap(name, info,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,140,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,138,writer.println(ImageMapUtilities.getImageMap(name, info,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,115,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,111,ImageMapUtilities.writeImageMap(writer, name, info,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/10/source/org/jfree/chart/imagemap/ImageMapUtilities.java,108,toolTipTagFragmentGenerator

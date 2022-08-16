@@ -1,0 +1,99 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,86,return context.getLocalizedMessage();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,80,return context.getMessage();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/util/Incrementor.java,151,maxCountCallback.trigger(maximalCount);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,394,return super.solve(maxEval, f, min, max, startValue);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,393,this.allowed = allowedSolution;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java,296,throw new TooManyEvaluationsException(e.getMax());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java,295,} catch (MaxCountExceededException e) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,74,return context;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,70,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,69,this(LocalizedFormats.ILLEGAL_STATE);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,48,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,47,context.addMessage(pattern, args);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,46,context = new ExceptionContext(this);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java,45,Object ... args) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,62,return max;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,56,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,55,this.max = max;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,54,getContext().addMessage(specific, max, args);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,53,Object ... args) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,43,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/MaxCountExceededException.java,42,this(LocalizedFormats.MAX_COUNT_EXCEEDED, max);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/TooManyEvaluationsException.java,39,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/TooManyEvaluationsException.java,38,getContext().addMessage(LocalizedFormats.EVALUATIONS);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/exception/TooManyEvaluationsException.java,37,super(max);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,130,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,129,this.allowed = AllowedSolution.ANY_SIDE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,128,this.maximalOrder = maximalOrder;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,125,if (maximalOrder < 2) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,124,super(relativeAccuracy, absoluteAccuracy, functionValueAccuracy);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/AbstractUnivariateRealSolver.java,60,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/AbstractUnivariateRealSolver.java,59,super(relativeAccuracy, absoluteAccuracy, functionValueAccuracy);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,265,--end;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,235,targetY = -REDUCTION_FACTOR * yB;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,297,signChangeIndex -= start;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,296,System.arraycopy(y, start, y, 0, nbPoints);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,295,System.arraycopy(x, start, x, 0, nbPoints);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,294,nbPoints = end - start;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,343,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,329,agingB = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,328,++agingA;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,327,absYB = FastMath.abs(yB);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,326,yB = nextY;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,325,xB = nextX;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,323,if (nextY * yA <= 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,320,++nbPoints;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,319,y[signChangeIndex] = nextY;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,318,System.arraycopy(y, signChangeIndex, y, signChangeIndex + 1, nbPoints - signChangeIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,317,x[signChangeIndex] = nextX;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,316,System.arraycopy(x, signChangeIndex, x, signChangeIndex + 1, nbPoints - signChangeIndex);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,299,} else  if (nbPoints == x.length) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,290,if ((nbPoints > 2) && (end - start != nbPoints)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,269,nextX = Double.NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,260,if (signChangeIndex - start >= end - signChangeIndex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,173,signChangeIndex = 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,172,nbPoints        = 2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,378,return x0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,375,x0 = x[j] + x0 * (targetY - y[j]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,374,for (int j = end - 1; j >= start; --j) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,373,double x0 = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,368,x[j] = (x[j] - x[j-1]) / (y[j] - y[j - delta]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,367,for (int j = end - 1; j > i; --j) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,366,final int delta = i + 1 - start;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,365,for (int i = start; i < end - 1; ++i) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,284,if (Precision.equals(nextY, 0.0, 1)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,283,final double nextY = computeObjectiveValue(nextX);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,275,if (Double.isNaN(nextX)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,273,} while (Double.isNaN(nextX) && (end - start > 1));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,254,if (!((nextX > xA) && (nextX < xB))) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,252,nextX = guessX(targetY, tmpX, y, start, end);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,251,System.arraycopy(x, start, tmpX, start, end - start);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,247,int end   = nbPoints;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,246,int start = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,241,targetY = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,236,} else if (agingB >= MAXIMAL_AGING) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,233,if (agingA >= MAXIMAL_AGING) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,213,if (((xB - xA) <= xTol) || (FastMath.max(absYA, absYB) < getFunctionValueAccuracy())) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,211,final double xTol = getAbsoluteAccuracy() +
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,205,int agingB   = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,204,double absYB = FastMath.abs(yB);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,203,double yB    = y[signChangeIndex];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,202,double xB    = x[signChangeIndex];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,201,int agingA   = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,200,double absYA = FastMath.abs(yA);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,199,double yA    = y[signChangeIndex - 1];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,198,double xA    = x[signChangeIndex - 1];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,195,final double[] tmpX = new double[x.length];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java,140,return functionValueAccuracy;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java,134,return relativeAccuracy;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java,128,return absoluteAccuracy;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,169,if (y[0] * y[1] < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,162,if (Precision.equals(y[0], 0.0, 1)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,161,y[0] = computeObjectiveValue(x[0]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,155,if (Precision.equals(y[1], 0.0, 1)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,154,y[1] = computeObjectiveValue(x[1]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,151,verifySequence(x[0], x[1], x[2]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,150,x[2] = getMax();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,149,x[1] = getStartValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,148,x[0] = getMin();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java,147,final double[] y = new double[maximalOrder + 1];

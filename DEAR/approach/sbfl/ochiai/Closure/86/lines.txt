@@ -1,0 +1,49 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,762,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,2465,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,280,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,279,functionInfo.setTaintsUnknown();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,161,continue;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,160,depFunctionNames.add("<null def list>");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,336,flags.setMutatesThis();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,358,if (!NodeUtil.constructorCallHasSideEffects(callNode)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,356,} else if (NodeUtil.isNew(callNode)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,2425,switch (value.getType()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,2416,return evaluatesToLocalValue(value, Predicates.<Node>alwaysFalse());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,2450,return locals.apply(value);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,159,if (defs == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,155,Collection<Definition> defs =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,825,return NodeUtil.constructorCallHasSideEffects(n, compiler);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,272,if (defs == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,270,Collection<Definition> defs =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,269,Node callee = callSite.getFirstChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,1462,return node.getType() == Token.THIS;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/FunctionNames.java,97,str = getFunctionName(parent) + "::" + str;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,692,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,701,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/rhino/Token.java,316,case STRING:          return "STRING";
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,681,return constructorCallHasSideEffects(callNode, null);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,871,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,867,if (propString.equals("call") || propString.equals("apply")) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,866,String propString = callTarget.getLastChild().getString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,865,if (NodeUtil.isGet(callTarget)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,864,Node callTarget = callSite.getFirstChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,696,if (nameNode.getType() == Token.NAME &&
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,695,Node nameNode = callNode.getFirstChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,797,return (n.getSideEffectFlags() & Node.FLAG_LOCAL_RESULTS) > 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,796,Preconditions.checkState(n.getType() == Token.CALL);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/rhino/Token.java,305,case NEW:             return "NEW";
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,691,if (callNode.isNoSideEffectsCall()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/NodeUtil.java,686,if (callNode.getType() != Token.NEW) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,168,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,167,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,165,depFunctionNames.add(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,164,for (Definition def : defs) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,289,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,288,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,287,sideEffectGraph.connect(dep, callSite, functionInfo);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,286,Preconditions.checkNotNull(dep);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,285,FunctionInformation dep = functionSideEffectMap.get(defValue);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,284,Node defValue = def.getRValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,283,for (Definition def : defs) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,335,if (functionInfo.taintsThis) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/86/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,209,return result;

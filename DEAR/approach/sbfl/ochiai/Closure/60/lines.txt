@@ -1,0 +1,30 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/rhino/Node.java,1542,return res;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/rhino/Node.java,1529,return new NodeMismatch(this, node2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/rhino/Node.java,1500,return "Node tree inequality:" +
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/PeepholeFoldConstants.java,158,if (!mayHaveSideEffects(n)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/NodeUtil.java,136,return TernaryValue.FALSE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/PeepholeReplaceKnownMethods.java,138,if (functionNameString.equals("parseInt") ||
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/PeepholeReplaceKnownMethods.java,130,return subtree;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,238,return Lists.newArrayList(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/PureFunctionIdentifier.java,228,} else if (NodeUtil.isFunctionExpression(name)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/rhino/Node.java,240,case FREE_CALL:          return "free_call";
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/OptimizeParameters.java,89,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,182,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,180,options.setWarningLevel(DiagnosticGroups.NON_STANDARD_JSDOC,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,177,options.optimizeCalls = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,176,options.optimizeReturns = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,175,options.optimizeParameters = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,174,options.devirtualizePrototypeMethods = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,171,options.crossModuleMethodMotion = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,170,options.crossModuleCodeMotion = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,167,options.removeUnusedLocalVars = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,166,options.removeUnusedVars = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,163,options.computeFunctionSideEffects = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,162,options.flowSensitiveInlineVariables = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,161,options.inlineVariables = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,160,options.inlineGetters = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,159,options.inlineLocalFunctions = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,158,options.inlineFunctions = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,157,options.inlineConstantVars = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,156,options.smartNameRemoval = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/60/src/com/google/javascript/jscomp/CompilationLevel.java,155,options.rewriteFunctionExpressions = true;

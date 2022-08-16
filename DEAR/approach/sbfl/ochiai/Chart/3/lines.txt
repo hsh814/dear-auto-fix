@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1071,return copy;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1068,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1064,copy.add(clone);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1062,TimeSeriesDataItem clone = (TimeSeriesDataItem) item.clone();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1060,TimeSeriesDataItem item
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1059,for (int index = start; index <= end; index++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1058,if (this.data.size() > 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1057,copy.data = new java.util.ArrayList();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1056,TimeSeries copy = (TimeSeries) super.clone();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1053,if (end < start) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1050,if (start < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,565,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,564,add(item, true);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/general/Series.java,246,return clone;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/general/Series.java,245,clone.propertyChangeSupport = new PropertyChangeSupport(clone);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/general/Series.java,244,clone.listeners = new EventListenerList();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/general/Series.java,243,Series clone = (Series) super.clone();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,360,return this.maxY;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,345,return this.minY;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,668,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,667,add(item, notify);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,666,TimeSeriesDataItem item = new TimeSeriesDataItem(period, value);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,654,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,653,add(period, value, true);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,367,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,351,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,350,result = this.year - y.getYear();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,349,Year y = (Year) o1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,348,if (o1 instanceof Year) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,253,return this.year;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,171,return this.year;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,122,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,121,this(period, new Double(value));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,695,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,694,add(item, notify);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,693,TimeSeriesDataItem item = new TimeSeriesDataItem(period, value);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,681,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,680,add(period, value, true);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,291,return calendar.getTime().getTime();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,288,calendar.set(Calendar.MILLISECOND, 999);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,287,calendar.set(this.year, Calendar.DECEMBER, 31, 23, 59, 59);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,272,return calendar.getTime().getTime();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,269,calendar.set(Calendar.MILLISECOND, 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,268,calendar.set(this.year, Calendar.JANUARY, 1, 0, 0, 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,213,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,212,this.lastMillisecond = getLastMillisecond(calendar);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,211,this.firstMillisecond = getFirstMillisecond(calendar);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,121,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,120,peg(Calendar.getInstance());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,119,this.year = (short) year;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,115,if ((year < Year.MINIMUM_YEAR) || (year > Year.MAXIMUM_YEAR)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/Year.java,114,public Year(int year) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1296,return Math.max(a, b);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1292,if (Double.isNaN(b)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1273,return Math.min(a, b);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1269,if (Double.isNaN(b)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,885,if (removed) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,881,> this.maximumItemAge) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,879,boolean removed = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,878,long latest = getTimePeriod(getItemCount() - 1).getSerialIndex();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,606,added = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,605,this.data.add(item);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,604,if (item.getPeriod().compareTo(last) > 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,603,RegularTimePeriod last = getTimePeriod(getItemCount() - 1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,584,else if (!this.timePeriodClass.equals(c)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,463,return getRawDataItem(index).getPeriod();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,429,return (TimeSeriesDataItem) this.data.get(index);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,273,return clone;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,272,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,268,clone = super.clone();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,266,Object clone = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,141,return this.value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,130,return this.period;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,112,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,111,this.selected = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,110,this.value = value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,109,this.period = period;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,106,if (period == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeriesDataItem.java,105,public TimeSeriesDataItem(RegularTimePeriod period, Number value) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1289,return b;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1288,if (Double.isNaN(a)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1266,return b;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1265,if (Double.isNaN(a)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1217,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1215,this.maxY = maxIgnoreNaN(this.maxY, y);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1214,this.minY = minIgnoreNaN(this.minY, y);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1213,double y = yN.doubleValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1212,if (item.getValue() != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,1211,Number yN = item.getValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,892,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,877,if (getItemCount() > 1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,642,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,638,fireSeriesChanged();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,637,if (notify) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,634,removeAgedItems(false);  // remove old items if necessary, but
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,629,if (getItemCount() > this.maximumItemCount) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,627,updateBoundsForAddedItem(item);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,626,if (added) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,600,added = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Chart/3/source/org/jfree/data/time/TimeSeries.java,599,this.data.add(item);

@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,140,return 0L;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,138,return -val1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,142,return val1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,148,return total;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,145,if (total / val2 != val1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,144,long total = val1 * val2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/field/FieldUtils.java,136,switch (val2) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,328,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,326,iMessage = message + ": " + iMessage;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,325,} else if (message != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,324,iMessage = message;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,323,if (iMessage == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,314,return iMessage;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,310,return iUpperBound;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,301,return iLowerBound;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,292,return value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,290,value = String.valueOf(iNumberValue);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,289,if (value == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,288,String value = iStringValue;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,279,return iStringValue;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,270,return iNumberValue;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,261,return iFieldName;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,252,return iDurationFieldType;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,243,return iDateTimeFieldType;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,86,return buf.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,84,buf.append(" for ").append(fieldName).append(' ').append("is not supported");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,81,buf.append('"');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,80,buf.append(value);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,79,buf.append('"');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,77,buf.append("null");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,76,if (value == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,74,StringBuffer buf = new StringBuffer().append("Value ");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,63,return buf.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,60,buf.append(": ").append(explain);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,59,if (explain != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,53,buf.append("must be in the range [")
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,51,buf.append("must not be smaller than ").append(lowerBound);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,50,} else if (upperBound == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,48,buf.append("must not be larger than ").append(upperBound);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,46,buf.append("is not supported");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,45,if (upperBound == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,44,if (lowerBound == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,41,StringBuffer buf = new StringBuffer()
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,234,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,233,iMessage = super.getMessage();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,232,iUpperBound = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,231,iLowerBound = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,230,iNumberValue = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,229,iStringValue = value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,228,iFieldName = fieldName;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,227,iDurationFieldType = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,226,iDateTimeFieldType = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,225,super(createMessage(fieldName, value));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,216,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,215,iMessage = super.getMessage();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,214,iUpperBound = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,213,iLowerBound = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,212,iNumberValue = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,211,iStringValue = value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,210,iFieldName = fieldType.getName();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,209,iDurationFieldType = fieldType;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,208,iDateTimeFieldType = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,207,super(createMessage(fieldType.getName(), value));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,198,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,197,iMessage = super.getMessage();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,196,iUpperBound = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,195,iLowerBound = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,194,iNumberValue = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,193,iStringValue = value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,192,iFieldName = fieldType.getName();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,191,iDurationFieldType = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,190,iDateTimeFieldType = fieldType;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,189,super(createMessage(fieldType.getName(), value));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,180,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,179,iMessage = super.getMessage();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,178,iUpperBound = upperBound;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,177,iLowerBound = lowerBound;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,176,iStringValue = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,175,iNumberValue = value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,174,iFieldName = fieldName;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,173,iDurationFieldType = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,172,iDateTimeFieldType = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,171,super(createMessage(fieldName, value, lowerBound, upperBound, null));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,159,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,158,iMessage = super.getMessage();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,157,iUpperBound = upperBound;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,156,iLowerBound = lowerBound;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,155,iStringValue = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,154,iNumberValue = value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,153,iFieldName = fieldType.getName();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,152,iDurationFieldType = fieldType;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,151,iDateTimeFieldType = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,150,super(createMessage(fieldType.getName(), value, lowerBound, upperBound, null));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,138,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,137,iMessage = super.getMessage();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,136,iUpperBound = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,135,iLowerBound = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,134,iStringValue = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,133,iNumberValue = value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/15/src/main/java/org/joda/time/IllegalFieldValueException.java,132,iFieldName = fieldType.getName();

@@ -1,0 +1,30 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,696,return format(new Date(millis));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,556,rule = new TimeZoneNameRule(mTimeZone, mLocale, TimeZone.LONG);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,493,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,492,rule = new TextField(Calendar.ERA, ERAs);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,560,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,558,rule = new TimeZoneNameRule(mTimeZone, mLocale, TimeZone.SHORT);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,555,if (tokenLen >= 4) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,419,return value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,415,if (prior != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,414,String prior = cTimeZoneDisplayCache.putIfAbsent(key, value);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,413,value = tz.getDisplayName(daylight, style, locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,411,if (value == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,410,String value = cTimeZoneDisplayCache.get(key);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,409,TimeZoneDisplayKey key = new TimeZoneDisplayKey(tz, daylight, style, locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,547,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,546,rule = new TextField(Calendar.AM_PM, AmPmStrings);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,503,rule = new TextField(Calendar.MONTH, months);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,500,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,498,rule = TwoDigitYearField.INSTANCE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,511,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,509,rule = UnpaddedMonthField.INSTANCE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,655,return new UnpaddedNumberField(field);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,563,rule = TimeZoneNumberRule.INSTANCE_NO_COLON;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,535,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,534,rule = selectNumberRule(Calendar.DAY_OF_YEAR, tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,505,rule = new TextField(Calendar.MONTH, shortMonths);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,567,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,565,rule = TimeZoneNumberRule.INSTANCE_COLON;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,532,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/18/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,531,rule = new TextField(Calendar.DAY_OF_WEEK, tokenLen < 4 ? shortWeekdays : weekdays);

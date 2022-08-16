@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/jmock/SearchingClassLoader.java,71,return nextToSearch.loadClass(name);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/jmock/SearchingClassLoader.java,70,if (nextToSearch != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/jmock/ClassImposterizer.java,65,throw new MockitoException(join(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/jmock/ClassImposterizer.java,63,} catch (ClassCastException cce) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,76,return 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/jmock/SearchingClassLoader.java,56,loader = new SearchingClassLoader(parentLoaders.get(i), loader);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/jmock/SearchingClassLoader.java,21,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/jmock/SearchingClassLoader.java,20,this.nextToSearch = nextToSearch;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/jmock/SearchingClassLoader.java,19,super(parent);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/Mockito.java,2086,return new Timeout(millis, VerificationModeFactory.times(1));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/AtLeast.java,38,missingInvocation.check(data.getAllInvocations(), data.getWanted());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/AtLeast.java,41,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,33,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,32,invocationMarker.markVerified(actualInvocations, wanted);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/AtLeast.java,40,numberOfInvocations.check(data.getAllInvocations(), data.getWanted(), wantedCount);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/Mockito.java,1961,return times(0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,27,if (wantedCount > actualCount) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,26,int actualCount = actualInvocations.size();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,24,List<Invocation> actualInvocations = finder.findInvocations(invocations, wanted);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/AtLeast.java,37,if (wantedCount == 1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/AtLeast.java,35,AtLeastXNumberOfInvocationsChecker numberOfInvocations = new AtLeastXNumberOfInvocationsChecker();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/AtLeast.java,34,MissingInvocationChecker missingInvocation = new MissingInvocationChecker();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,21,InvocationMarker invocationMarker = new InvocationMarker();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,20,InvocationsFinder finder = new InvocationsFinder();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,19,Reporter reporter = new Reporter();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,17,public class AtLeastXNumberOfInvocationsChecker {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/MockitoCore.java,166,return allInvocations.get(allInvocations.size()-1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/MockitoCore.java,165,List<Invocation> allInvocations = ongoingStubbing.getRegisteredInvocations();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/MockitoCore.java,164,OngoingStubbingImpl ongoingStubbing = ((OngoingStubbingImpl) mockingProgress.pullOngoingStubbing());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/OngoingStubbingImpl.java,43,return invocationContainerImpl.getInvocations();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/util/MockCreationValidator.java,33,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/util/MockCreationValidator.java,30,if (classToMock == i) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/MockSettingsImpl.java,53,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/MockSettingsImpl.java,52,this.extraInterfaces = newSet(extraInterfaces);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/util/collections/Sets.java,31,return new LinkedHashSet<T>(asList(elements));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/util/collections/Sets.java,28,if (elements == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/configuration/DefaultMockitoConfiguration.java,32,return new ReturnsEmptyValues();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/configuration/GlobalConfiguration.java,67,return globalConfiguration.get().getDefaultAnswer();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/defaultanswers/GloballyConfiguredAnswer.java,24,return new GlobalConfiguration().getDefaultAnswer().answer(invocation);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/util/ObjectMethodsGuru.java,39,return Comparable.class.isAssignableFrom(method.getDeclaringClass())
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,72,} else if (methodsGuru.isCompareToMethod(invocation.getMethod())) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,64,if (methodsGuru.isToString(invocation.getMethod())) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/MockSettingsImpl.java,48,} else if (!i.isInterface()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/MockSettingsImpl.java,46,if (i == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/MockSettingsImpl.java,45,for (Class i : extraInterfaces) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,58,MockUtil mockUtil = new MockUtil();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,57,ObjectMethodsGuru methodsGuru = new ObjectMethodsGuru();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,54,public class ReturnsEmptyValues implements Answer<Object>, Serializable {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/DelegatingMethod.java,37,return method.getReturnType();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/util/ObjectMethodsGuru.java,22,return method.getReturnType() == String.class
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/util/ObjectMethodsGuru.java,18,return isToString(new DelegatingMethod(method));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/MockHandlerImpl.java,101,return ret;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/MockHandlerImpl.java,100,invocationContainerImpl.resetInvocationForPotentialStubbing(invocationMatcher);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/InvocationContainerImpl.java,46,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/InvocationContainerImpl.java,45,this.invocationForStubbing = invocationMatcher;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/MockHandlerImpl.java,93,Object ret = mockSettings.getDefaultAnswer().answer(invocation);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/settings/CreationSettings.java,77,return defaultAnswer;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/InvocationContainerImpl.java,87,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/InvocationContainerImpl.java,85,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/DelegatingMethod.java,25,return method;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/DelegatingMockitoMethodProxy.java,18,return methodProxy;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/DelegatingMethod.java,41,return method.isVarArgs();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/MethodInterceptorFilter.java,82,return new DelegatingMethod(method);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/MethodInterceptorFilter.java,75,return new DelegatingMockitoMethodProxy(methodProxy);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/DelegatingMockitoMethodProxy.java,15,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/DelegatingMockitoMethodProxy.java,14,this.methodProxy = methodProxy;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/DelegatingMockitoMethodProxy.java,13,public DelegatingMockitoMethodProxy(MethodProxy methodProxy) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/creation/MockSettingsImpl.java,41,if (extraInterfaces == null || extraInterfaces.length == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/MockHandlerImpl.java,89,if (stubbedInvocation != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/MockHandlerImpl.java,87,StubbedInvocationMatcher stubbedInvocation = invocationContainerImpl.findAnswerFor(invocation);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/MockHandlerImpl.java,84,mockingProgress.reportOngoingStubbing(ongoingStubbing);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/MockHandlerImpl.java,83,OngoingStubbingImpl<T> ongoingStubbing = new OngoingStubbingImpl<T>(invocationContainerImpl);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/MockHandlerImpl.java,82,invocationContainerImpl.setInvocationForPotentialStubbing(invocationMatcher);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/progress/ThreadSafeMockingProgress.java,30,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/progress/ThreadSafeMockingProgress.java,29,threadSafely().reportOngoingStubbing(iOngoingStubbing);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/progress/MockingProgressImpl.java,32,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/progress/MockingProgressImpl.java,31,this.iOngoingStubbing = iOngoingStubbing;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/OngoingStubbingImpl.java,21,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/OngoingStubbingImpl.java,20,this.invocationContainerImpl = invocationContainerImpl;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/OngoingStubbingImpl.java,19,public OngoingStubbingImpl(InvocationContainerImpl invocationContainerImpl) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/BaseStubbing.java,14,public abstract class BaseStubbing<T> implements OngoingStubbing<T>, DeprecatedOngoingStubbing<T> {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/NullResultGuardian.java,31,if(result == null && returnType.isPrimitive()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/NullResultGuardian.java,30,Class<?> returnType = invocation.getMethod().getReturnType();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/InvocationNotifierHandler.java,56,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/InvocationNotifierHandler.java,49,for (InvocationListener listener : invocationListeners) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/InvocationNotifierHandler.java,40,return returnedValue;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/InvocationNotifierHandler.java,39,notifyMethodCall(invocation, returnedValue);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/progress/MockingProgressImpl.java,55,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/InvocationContainerImpl.java,78,for (StubbedInvocationMatcher s : stubbed) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/InvocationContainerImpl.java,77,synchronized (stubbed) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/DefaultRegisteredInvocations.java,27,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/DefaultRegisteredInvocations.java,26,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/DefaultRegisteredInvocations.java,25,invocations.add(invocation);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/DefaultRegisteredInvocations.java,24,synchronized (invocations) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/InvocationContainerImpl.java,42,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/InvocationContainerImpl.java,41,this.invocationForStubbing = invocation;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/stubbing/InvocationContainerImpl.java,40,registeredInvocations.add(invocation.getInvocation());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/verification/VerificationModeFactory.java,13,return atLeast(1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/handler/MockHandlerImpl.java,67,if (verificationMode != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Mockito/24/src/org/mockito/internal/progress/ArgumentMatcherStorageImpl.java,41,return Collections.emptyList();

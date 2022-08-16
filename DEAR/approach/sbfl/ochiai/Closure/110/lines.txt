@@ -1,0 +1,33 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/Scope.java,574,return vars.values();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/JSError.java,203,return type.key + ". " + description + " at " +
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,93,if (startLineno > endLineno) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/NodeUtil.java,443,return name;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/NodeUtil.java,442,String name = n.getFirstChild().getQualifiedName();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/NodeUtil.java,429,switch (parent.getType()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/NodeUtil.java,428,Node parent = n.getParent();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/NodeUtil.java,427,Preconditions.checkState(n.isFunction());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,78,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,77,this.item = item;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,105,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,104,this.endCharno = endCharno;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,103,this.endLineno = endLineno;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,102,this.startCharno = startCharno;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,101,this.startLineno = startLineno;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,85,if (startLineno == endLineno) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,71,private int endCharno = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,66,private int endLineno = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,61,private int startCharno = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,56,private int startLineno = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,51,private T item = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/rhino/SourcePosition.java,47,public abstract class SourcePosition<T> {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/ScopedAliases.java,189,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/ScopedAliases.java,136,if (!traversal.hasErrors()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/ScopedAliases.java,134,NodeTraversal.traverse(compiler, root, traversal);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/ScopedAliases.java,133,Traversal traversal = new Traversal();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/ScopedAliases.java,129,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/ScopedAliases.java,128,hotSwapScript(root, null);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/ScopedAliases.java,124,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/ScopedAliases.java,123,this.transformationHandler = transformationHandler;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/ScopedAliases.java,122,this.preprocessorSymbolTable = preprocessorSymbolTable;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/ScopedAliases.java,121,this.compiler = compiler;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/110/src/com/google/javascript/jscomp/ScopedAliases.java,116,private Multiset<String> scopedAliasNames = HashMultiset.create();

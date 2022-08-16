@@ -1,0 +1,51 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,620,rule = new TextField(Calendar.MONTH, months);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,677,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,675,rule = new TimeZoneNameRule(mTimeZone, mTimeZoneForced, mLocale, TimeZone.SHORT);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,672,if (tokenLen >= 4) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,485,return format;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,483,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,479,cDateTimeInstanceCache.put(key, format);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,478,format = getInstance(pattern, timeZone, locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,477,String pattern = formatter.toPattern();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,475,SimpleDateFormat formatter = (SimpleDateFormat) DateFormat.getDateTimeInstance(dateStyle, timeStyle,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,472,locale = Locale.getDefault();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,471,if (locale == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,470,if (format == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,469,FastDateFormat format = (FastDateFormat) cDateTimeInstanceCache.get(key);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,466,key = new Pair(key, locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,465,if (locale != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,462,if (timeZone != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,461,Object key = new Pair(new Integer(dateStyle), new Integer(timeStyle));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,425,return getDateTimeInstance(dateStyle, timeStyle, null, locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,408,return getDateTimeInstance(dateStyle, timeStyle, null, null);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,293,locale = Locale.getDefault();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,234,return getDateInstance(style, null, null);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,954,return mLocale;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,772,return new UnpaddedNumberField(field);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,692,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,690,rule = new StringLiteral(sub);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,649,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,648,rule = new TextField(Calendar.DAY_OF_WEEK, tokenLen < 4 ? shortWeekdays : weekdays);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,664,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,663,rule = new TextField(Calendar.AM_PM, AmPmStrings);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,634,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,633,rule = new TwelveHourField(selectNumberRule(Calendar.HOUR, tokenLen));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,305,return format;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,303,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,299,cDateInstanceCache.put(key, format);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,298,format = getInstance(pattern, timeZone, locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,297,String pattern = formatter.toPattern();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,296,SimpleDateFormat formatter = (SimpleDateFormat) DateFormat.getDateInstance(style, locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,292,if (locale == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,291,if (format == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,290,FastDateFormat format = (FastDateFormat) cDateInstanceCache.get(key);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,286,key = new Pair(key, locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,285,if (locale != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,281,if (timeZone != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,280,Object key = new Integer(style);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,249,return getDateInstance(style, null, locale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,631,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,630,rule = selectNumberRule(Calendar.DAY_OF_MONTH, tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,546,timeZone = TimeZone.getDefault();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,776,return new PaddedNumberField(field, padding);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/50/src/java/org/apache/commons/lang/time/FastDateFormat.java,613,rule = selectNumberRule(Calendar.YEAR, tokenLen);

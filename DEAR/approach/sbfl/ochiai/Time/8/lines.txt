@@ -1,0 +1,59 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,280,throw new IllegalArgumentException("Minutes out of range: " + minutesOffset);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,274,return DateTimeZone.UTC;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,218,return DateTimeZone.UTC;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,221,return fixedOffsetZone(id, offset);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,220,id = printOffset(offset);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,217,if (offset == 0L) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,216,int offset = parseOffset(id);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,215,if (id.startsWith("+") || id.startsWith("-")) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,700,return cOffsetFormatter;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,695,if (cOffsetFormatter == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,643,return -(int) offsetFormatter().withChronology(chrono).parseMillis(str);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,629,Chronology chrono = new BaseChronology() {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,661,offset = -offset;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,660,buf.append('-');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,142,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,288,minutesOffset = hoursInMinutes + minutesOffset;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,390,return zone;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,389,iFixedOffsetCache.put(id, new SoftReference<DateTimeZone>(zone));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,388,zone = new FixedDateTimeZone(id, null, offset, offset);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,294,return forOffsetMillis(offset);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,293,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,290,offset = FieldUtils.safeMultiply(minutesOffset, DateTimeConstants.MILLIS_PER_MINUTE);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,285,if (hoursInMinutes < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,284,int hoursInMinutes = hoursOffset * 60;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,282,int offset = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,279,if (minutesOffset < 0 || minutesOffset > 59) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,276,if (hoursOffset < -23 || hoursOffset > 23) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,273,if (hoursOffset == 0 && minutesOffset == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,385,return zone;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,384,if (zone != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,383,zone = ref.get();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,308,return fixedOffsetZone(id, millisOffset);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,307,String id = printOffset(millisOffset);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,304,if (millisOffset < -MAX_MILLIS || millisOffset > MAX_MILLIS) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,382,if (ref != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,381,Reference<DateTimeZone> ref = iFixedOffsetCache.get(id);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,377,if (iFixedOffsetCache == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,374,if (offset == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,658,buf.append('+');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,673,return buf.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,672,if (offset == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,671,offset -= minutes * DateTimeConstants.MILLIS_PER_MINUTE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,670,FormatUtils.appendPaddedInteger(buf, minutes, 2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,669,buf.append(':');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,668,int minutes = offset / DateTimeConstants.MILLIS_PER_MINUTE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,666,offset -= hours * (int) DateTimeConstants.MILLIS_PER_HOUR;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,665,FormatUtils.appendPaddedInteger(buf, hours, 2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,664,int hours = offset / DateTimeConstants.MILLIS_PER_HOUR;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,657,if (offset >= 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/DateTimeZone.java,656,StringBuffer buf = new StringBuffer();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/field/FieldUtils.java,123,return (int) total;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/field/FieldUtils.java,120,if (total < Integer.MIN_VALUE || total > Integer.MAX_VALUE) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/field/FieldUtils.java,119,long total = (long) val1 * (long) val2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/format/FormatUtils.java,353,return ((value << 3) + (value << 1)) + text.charAt(position + 1) - '0';
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/format/FormatUtils.java,352,int value = text.charAt(position) - '0';
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/format/DateTimeParserBucket.java,381,millis -= iOffset;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/format/DateTimeParserBucket.java,197,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/format/DateTimeParserBucket.java,196,iOffset = offset;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/8/src/main/java/org/joda/time/format/DateTimeParserBucket.java,195,iSavedState = null;

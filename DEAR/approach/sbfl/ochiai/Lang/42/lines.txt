@@ -1,0 +1,8 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/42/src/java/org/apache/commons/lang/StringEscapeUtils.java,505,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/42/src/java/org/apache/commons/lang/StringEscapeUtils.java,504,Entities.HTML40.escape(writer, string);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/42/src/java/org/apache/commons/lang/StringEscapeUtils.java,501,if (string == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/42/src/java/org/apache/commons/lang/StringEscapeUtils.java,498,if (writer == null ) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/42/src/java/org/apache/commons/lang/StringEscapeUtils.java,461,return writer.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/42/src/java/org/apache/commons/lang/StringEscapeUtils.java,460,escapeHtml(writer, str);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/42/src/java/org/apache/commons/lang/StringEscapeUtils.java,459,StringWriter writer = new StringWriter ((int)(str.length() * 1.5));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/42/src/java/org/apache/commons/lang/StringEscapeUtils.java,455,if (str == null) {

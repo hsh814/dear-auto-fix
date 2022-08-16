@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/StringEscapeUtils.java,506,return ESCAPE_XML.translate(input);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,57,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,78,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,53,if(consumed != 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,52,int consumed = translator.translate(input, index, out);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java,51,for (CharSequenceTranslator translator : translators) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,73,if (result != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,72,CharSequence result = lookupMap.get(subSeq);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,71,CharSequence subSeq = input.subSequence(index, index + i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,70,for (int i = max; i >= shortest; i--) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,66,if (index + longest > input.length()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,65,int max = longest;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,89,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,88,out.write(c);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,87,char[] c = Character.toChars(Character.codePointAt(input, pos));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,60,return writer.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,59,translate(input, writer);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,58,StringWriter writer = new StringWriter(input.length() * 2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,54,if (input == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,104,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,103,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,102,pos++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,86,if (consumed == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,85,int consumed = translate(input, pos, out);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,84,while (pos < len) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,83,int len = Character.codePointCount(input, 0, input.length());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,82,int pos = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,79,if (input == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,76,if (out == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,67,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,61,throw new IllegalArgumentException("Less than 4 hex digits in unicode value: '" +
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,59,return i + 4;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,57,throw new IllegalArgumentException("Unable to parse unicode value: " + unicode, nfe);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,56,} catch (NumberFormatException nfe) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,58,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,55,out.write((char) value);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,54,int value = Integer.parseInt(unicode.toString(), 16);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,51,CharSequence unicode = input.subSequence(index + i, index + i + 4);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,49,if( (index + i + 4 <= input.length()) ) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,46,i++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,45,if( (index + i < input.length()) && (input.charAt(index + i) == '+') ) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,42,i++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,41,while( (index + i < input.length()) && input.charAt(index + i) == 'u') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,40,int i=2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,38,if( (index + 1 < input.length()) && input.charAt(index + 1) == 'u') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,37,if(input.charAt(index) == '\\') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,30,public class UnicodeUnescaper extends CharSequenceTranslator {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,128,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,126,out.write("\\u000" + hex(codepoint));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,124,out.write("\\u00" + hex(codepoint));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,123,} else if (codepoint > 0xf) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,122,out.write("\\u0" + hex(codepoint));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,121,} else if (codepoint > 0xff) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,120,out.write("\\u" + hex(codepoint));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,119,} else if (codepoint > 0xfff) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,118,out.write("\\u" + hex(codepoint));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,115,if (codepoint > 0xffff) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,110,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,109,if (codepoint >= below && codepoint <= above) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,106,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,105,if (codepoint < below || codepoint > above) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,104,if(between) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,96,return new UnicodeEscaper(codepointLow, codepointHigh, true);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,85,return new UnicodeEscaper(codepointLow, codepointHigh, false);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,74,return outsideOf(0, codepoint);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,64,return outsideOf(codepoint, Integer.MAX_VALUE);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,55,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,54,this.between = between;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,53,this.above = above;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,52,this.below = below;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,51,private UnicodeEscaper(int below, int above, boolean between) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,39,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,38,this(0, Integer.MAX_VALUE, true);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,58,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,56,return 1 + end - start;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,55,out.write( Integer.parseInt(input.subSequence(start, end).toString(), 8) );
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,51,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,50,end--; // rollback
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,49,if ( Integer.parseInt(input.subSequence(start, end).toString(), 10) > OCTAL_MAX) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,48,end++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,47,while ( end < input.length() && Character.isDigit(input.charAt(end)) ) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,46,int end = index + 2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,44,int start = index + 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,43,if(input.charAt(index) == '\\' && index < (input.length() - 1) && Character.isDigit(input.charAt(index + 1)) ) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,34,public class OctalUnescaper extends CharSequenceTranslator {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,137,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,135,return 2 + (end - start) + (isHex ? 1 : 0) + (semiNext ? 1 : 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,132,out.write(entityValue);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,131,} else {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,130,out.write(chrs[1]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,129,out.write(chrs[0]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,128,char[] chrs = Character.toChars(entityValue);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,127,if(entityValue > 0xFFFF) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,124,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,123,} catch(NumberFormatException nfe) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,125,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,121,entityValue = Integer.parseInt(input.subSequence(start, end).toString(), 10);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,119,entityValue = Integer.parseInt(input.subSequence(start, end).toString(), 16);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,118,if(isHex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/17/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,112,throw new IllegalArgumentException("Semi-colon required at end of numeric entity");

@@ -1,0 +1,89 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/JSTypeRegistry.java,1342,return createOptionalType(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java,1349,typeNode = wrapNode(Token.ELLIPSIS, typeNode);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java,1342,restArg = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java,1338,if (token == JsDocToken.RC) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java,1337,token = next();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/parsing/JsDocTokenStream.java,148,return JsDocToken.ELLIPSIS;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/parsing/JsDocTokenStream.java,147,if (c == '.') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/parsing/JsDocTokenStream.java,146,c = getChar();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/parsing/JsDocTokenStream.java,145,if (c == '.') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/FunctionType.java,240,return Integer.MAX_VALUE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/parsing/JsDocTokenStream.java,142,if (c == '<') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/parsing/JsDocTokenStream.java,141,c = getChar();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,474,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,473,ensureTyped(t, n, BOOLEAN_TYPE);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/parsing/IRFactory.java,982,return Token.TRUE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,420,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,419,n.setJSType(getNativeType(BOOLEAN_TYPE));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,418,scope = traverseChildren(n, scope);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,871,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,870,i++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,855,if (iParameterType instanceof FunctionType) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,854,JSType iParameterType = iParameter.getJSType();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeValidator.java,367,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeValidator.java,360,if (!argType.canAssignTo(paramType)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1416,validator.expectArgumentMatchesParameter(t, argument,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1414,ordinal++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1413,argument = arguments.next();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1412,parameter = parameters.next();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,127,if (dollarIndex != -1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,126,int dollarIndex = name.lastIndexOf('$');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,125,String name = callName.getString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,124,} else if (callName.getType() == Token.NAME) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/JSType.java,834,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/JSType.java,836,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/FunctionType.java,223,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/FunctionType.java,220,if (!n.isOptionalArg() && !n.isVarArgs()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/FunctionType.java,219,i++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,305,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,303,if (!"goog.reflect.object".equals(callName.getQualifiedName()) ||
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,302,Node callName = callNode.getFirstChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,301,Preconditions.checkArgument(callNode.getType() == Token.CALL);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/DefaultCodingConvention.java,147,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/JSType.java,833,if (thisType.isSubtype(element)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/JSType.java,832,for (JSType element : union.alternates) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/JSType.java,831,UnionType union = (UnionType)thatType;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/Node.java,2006,return getBooleanProp(OPT_ARG_NAME);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,268,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,265,if (!("goog.addSingletonGetter".equals(callName) ||
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,262,String callName = callArg.getQualifiedName();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,261,Node callArg = callNode.getFirstChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,494,ensureTyped(t, n, NUMBER_TYPE);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,139,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,111,return null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,883,return;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1387,} else {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1386,ensureTyped(t, n, functionType.getReturnType());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1385,visitParameterList(t, n, functionType);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1380,if (functionType.isConstructor() &&
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1377,FunctionType functionType = (FunctionType) childType;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,882,if (fnType.getTemplateTypeName() == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,872,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,853,for (Node iParameter : fnType.getParameters()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,852,int childCount = n.getChildCount();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,851,int i = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,791,} else if (functionType.equals(getNativeType(CHECKED_UNKNOWN_TYPE))) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,790,updateTypeOfThisOnClosure(n, fnType);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,789,updateTypeOfParametersOnClosure(n, fnType);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,788,n.setJSType(fnType.getReturnType());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,787,FunctionType fnType = (FunctionType) functionType;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/FunctionType.java,797,return templateTypeName;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/FunctionType.java,194,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,132,if (methodName != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,122,if (callName.getType() == Token.GETPROP) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,121,String methodName = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,75,if (type != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,74,SubclassType type = typeofClassDefiningName(callName);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/ClosureCodingConvention.java,73,Node callName = callNode.getFirstChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,493,if (n.getParent().getType() != Token.OBJECTLIT) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1394,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1376,if (childType instanceof FunctionType) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1368,if (!childType.canBeCalled()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1366,JSType childType = getJSType(child).restrictByNotNullOrUndefined();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,1365,Node child = n.getFirstChild();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,543,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,542,typeable = !NodeUtil.isExpressionNode(parent);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeCheck.java,541,visitCall(t, n);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/jscomp/TypeInference.java,807,return scope;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/UnionType.java,263,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/96/src/com/google/javascript/rhino/jstype/UnionType.java,262,}

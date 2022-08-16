@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,735,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,732,float result = numerator.floatValue() / denominator.floatValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,372,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,371,this.sourceFormat = sourceFormat;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/exception/util/LocalizedFormats.java,370,private LocalizedFormats(final String sourceFormat) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,145,denominator = den;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,144,numerator   = num;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,138,if (BigInteger.ZERO.compareTo(den) > 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,132,if (BigInteger.ONE.compareTo(gcd) < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,131,final BigInteger gcd = num.gcd(den);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,148,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,125,if (BigInteger.ZERO.equals(num)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,122,if (BigInteger.ZERO.equals(den)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,121,MathUtils.checkNotNull(den, LocalizedFormats.DENOMINATOR);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,120,MathUtils.checkNotNull(num, LocalizedFormats.NUMERATOR);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,119,public BigFraction(BigInteger num, BigInteger den) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,247,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/util/MathUtils.java,244,if (o == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,367,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,366,this(BigInteger.valueOf(num), BigInteger.ONE);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,134,den = den.divide(gcd);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,133,num = num.divide(gcd);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,127,denominator = BigInteger.ONE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,126,numerator   = BigInteger.ZERO;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,688,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,685,double result = numerator.doubleValue() / denominator.doubleValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,382,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,381,this(BigInteger.valueOf(num), BigInteger.valueOf(den));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/FractionConversionException.java,54,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/FractionConversionException.java,53,super(LocalizedFormats.FRACTION_CONVERSION_OVERFLOW, value, p, q);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/FractionConversionException.java,43,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/FractionConversionException.java,42,super(LocalizedFormats.FAILED_FRACTION_CONVERSION, value, maxIterations);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1130,return BigFractionField.getInstance();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1125,return str;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1123,str = numerator + " / " + denominator;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1121,str = "0";
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1120,} else if (BigInteger.ZERO.equals(numerator)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1119,str = numerator.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1118,if (BigInteger.ONE.equals(denominator)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1117,String str = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1102,return new BigFraction(num, den);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1100,den = denominator.multiply(fraction.denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1099,num = (numerator.multiply(fraction.denominator)).subtract((fraction.numerator).multiply(denominator));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1097,den = denominator;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1096,num = numerator.subtract(fraction.numerator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1095,if (denominator.equals(fraction.denominator)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1094,BigInteger den = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1093,BigInteger num = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1090,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1089,if (ZERO.equals(fraction)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1087,throw new NullArgumentException(LocalizedFormats.FRACTION);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1086,if (fraction == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1072,return subtract(BigInteger.valueOf(l));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1059,return subtract(BigInteger.valueOf(i));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1046,return new BigFraction(numerator.subtract(denominator.multiply(bg)), denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1044,throw new NullArgumentException();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1043,if (bg == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1029,return new BigFraction(numerator.divide(gcd), denominator.divide(gcd));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1028,final BigInteger gcd = numerator.gcd(denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1016,return new BigFraction(denominator, numerator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,1004,return FastMath.pow(numerator.doubleValue(),   exponent) /
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,989,return new BigFraction(ArithmeticUtils.pow(numerator,   exponent),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,986,return new BigFraction(ArithmeticUtils.pow(denominator, eNeg),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,985,final BigInteger eNeg = exponent.negate();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,984,if (exponent.compareTo(BigInteger.ZERO) < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,969,return new BigFraction(ArithmeticUtils.pow(numerator,   exponent),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,966,return new BigFraction(ArithmeticUtils.pow(denominator, -exponent),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,965,if (exponent < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,951,return new BigFraction(numerator.pow(exponent), denominator.pow(exponent));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,949,return new BigFraction(denominator.pow(-exponent), numerator.pow(-exponent));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,948,if (exponent < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,933,return multiply(ONE_HUNDRED).doubleValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,921,return new BigFraction(numerator.negate(), denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,908,return new BigFraction(numerator.multiply(fraction.numerator),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,906,return ZERO;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,904,if (numerator.equals(BigInteger.ZERO) ||
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,902,throw new NullArgumentException(LocalizedFormats.FRACTION);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,901,if (fraction == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,887,return multiply(BigInteger.valueOf(l));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,873,return multiply(BigInteger.valueOf(i));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,859,return new BigFraction(bg.multiply(numerator), denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,857,throw new NullArgumentException();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,856,if (bg == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,842,return numerator.divide(denominator).longValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,828,return numerator.divide(denominator).intValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,814,return 37 * (37 * 17 + numerator.hashCode()) + denominator.hashCode();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,801,return numerator.longValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,790,return numerator.intValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,779,return numerator;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,768,return denominator.longValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,757,return denominator.intValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,746,return denominator;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,718,return ret;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,715,ret = thisOne.numerator.equals(rhs.numerator) && thisOne.denominator.equals(rhs.denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,714,BigFraction thisOne = this.reduce();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,713,BigFraction rhs = ((BigFraction) other).reduce();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,712,} else if (other instanceof BigFraction) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,711,ret = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,710,if (this == other) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/36/src/main/java/org/apache/commons/math/fraction/BigFraction.java,708,boolean ret = false;

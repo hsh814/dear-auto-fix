@@ -1,0 +1,68 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/Period.java,969,return new Period(values, getPeriodType());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/Period.java,968,getPeriodType().setIndexedField(this, PeriodType.MILLI_INDEX, values, millis);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/Period.java,967,int[] values = getValues();  // cloned
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/format/FormatUtils.java,338,return calculateDigitCount(-value) + 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/format/FormatUtils.java,337,if (value != Long.MIN_VALUE) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/format/FormatUtils.java,239,value = -value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/format/FormatUtils.java,238,if (value != Integer.MIN_VALUE) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/format/FormatUtils.java,237,buf.append('-');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/format/FormatUtils.java,255,} else {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/format/FormatUtils.java,254,buf.append((char) (value - (d << 3) - (d << 1) + '0'));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/format/FormatUtils.java,252,buf.append((char) (d + '0'));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/format/FormatUtils.java,251,int d = ((value + 1) * 13421772) >> 27;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/format/FormatUtils.java,81,digits = 3;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/format/FormatUtils.java,247,} else if (value < 100) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/PeriodType.java,262,cYDTime = type;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/PeriodType.java,253,type = new PeriodType(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/Period.java,226,return new Period(new int[] {0, 0, 0, 0, 0, 0, 0, millis}, PeriodType.standard());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/Period.java,212,return new Period(new int[] {0, 0, 0, 0, 0, 0, seconds, 0}, PeriodType.standard());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/PeriodType.java,264,return type;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/PeriodType.java,252,if (type == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/PeriodType.java,251,PeriodType type = cYDTime;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/Period.java,110,return new Period(new int[] {years, 0, 0, 0, 0, 0, 0, 0, 0}, PeriodType.standard());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/PeriodType.java,693,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/PeriodType.java,692,values[realIndex] = newValue;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/PeriodType.java,689,if (realIndex == -1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/PeriodType.java,688,int realIndex = iIndices[index];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/format/ISOPeriodFormat.java,66,cStandard = new PeriodFormatterBuilder()
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DateTimeZone.java,147,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/chrono/ISOYearOfEraDateTimeField.java,91,return getWrappedField().getMaximumValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/chrono/ISOYearOfEraDateTimeField.java,87,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/chrono/ISOYearOfEraDateTimeField.java,47,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/chrono/ISOYearOfEraDateTimeField.java,46,super(GregorianChronology.getInstanceUTC().year(), DateTimeFieldType.yearOfEra());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/chrono/GregorianChronology.java,237,return MILLIS_PER_MONTH;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/chrono/GregorianChronology.java,229,return MILLIS_PER_YEAR;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/chrono/GregorianChronology.java,192,super.assemble(fields);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/chrono/GregorianChronology.java,129,chrono = new GregorianChronology(null, null, minDaysInFirstWeek);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/chrono/GregorianChronology.java,81,return INSTANCE_UTC;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DateTimeUtils.java,67,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DateTimeUtils.java,64,} catch (RuntimeException ex) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DateTimeUtils.java,66,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DateTimeUtils.java,63,map.put(name, DateTimeZone.forID(id));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/field/ZeroIsMaxDateTimeField.java,49,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/field/ZeroIsMaxDateTimeField.java,46,if (field.getMinimumValue() != 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/field/ZeroIsMaxDateTimeField.java,45,super(field, type);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/field/PreciseDurationField.java,45,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/field/PreciseDurationField.java,44,iUnitMillis = unitMillis;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/field/PreciseDurationField.java,43,super(type);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/field/MillisDurationField.java,45,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/field/MillisDurationField.java,44,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DateTimeFieldType.java,254,return HALFDAY_OF_DAY_TYPE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DateTimeFieldType.java,245,return CLOCKHOUR_OF_HALFDAY_TYPE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DateTimeFieldType.java,236,return HOUR_OF_HALFDAY_TYPE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DateTimeFieldType.java,227,return CLOCKHOUR_OF_DAY_TYPE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DateTimeFieldType.java,155,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DateTimeFieldType.java,154,iName = name;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DateTimeFieldType.java,153,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DurationFieldType.java,141,return HALFDAYS_TYPE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DurationFieldType.java,96,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DurationFieldType.java,95,iName = name;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/DurationFieldType.java,94,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/PeriodType.java,114,cStandard = type;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/PeriodType.java,104,type = new PeriodType(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,289,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,287,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,284,zimap.put(pool[din.readUnsignedShort()], pool[din.readUnsignedShort()]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,282,for (int i=0; i<size; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,281,size = din.readUnsignedShort();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/13/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,277,pool[i] = din.readUTF().intern();

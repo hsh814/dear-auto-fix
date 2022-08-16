@@ -1,0 +1,25 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,434,isConfigValid = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,433,err.println(e.getMessage());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,432,} catch (CmdLineException e) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,448,parser.printUsage(err);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,447,isConfigValid = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,610,return this.isConfigValid;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,484,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,446,if (!isConfigValid || flags.display_help) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,437,if (flags.version) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,431,parser.parseArgument(processedArgs.toArray(new String[] {}));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,429,isConfigValid = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,428,CmdLineParser parser = new CmdLineParser(flags);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,424,processedArgs.add(arg);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,413,if (matcher.matches()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,412,Matcher matcher = argPattern.matcher(arg);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,411,for (String arg : args) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,410,List<String> processedArgs = Lists.newArrayList();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,409,Pattern quotesPattern = Pattern.compile("^['\"](.*)['\"]$");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,408,Pattern argPattern = Pattern.compile("(--[a-zA-Z_]+)=(.*)");
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,402,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,401,initConfigFromFlags(args, err);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,400,super(out, err);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,387,private boolean isConfigValid = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/CommandLineRunner.java,382,private final Flags flags = new Flags();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/83/src/com/google/javascript/jscomp/DefaultCodingConvention.java,32,public class DefaultCodingConvention implements CodingConvention {

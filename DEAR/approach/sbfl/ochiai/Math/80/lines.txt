@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1415,dN = work[j4p2 + 2] * (dN1 / work[j4 - 2]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1414,work[j4] = work[j4p2 + 2] * (work[j4p2] / work[j4 - 2]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1407,eMin = 0.0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1406,dMin = dN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1405,dN   = work[j4p2 + 2];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1404,work[j4] = 0.0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1387,eMin = 0.0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1386,dMin = dN1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1385,dN1  = work[j4p2 + 2];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1384,work[j4] = 0.0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1144,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1142,j -= 4;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1140,work[j - k] = tmp;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1139,work[i + k] = work[j - k];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1138,final double tmp = work[i + k];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1137,for (int k = 0; k < 4; k += step) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1136,for (int i = 0; i < j; i += 4) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1135,int j = 4 * n - 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1063,dMin  = -0.0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1062,qMax  = Math.max(qMax, Math.max(work[3 + pingPong], work[7 + pingPong]));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1059,work[l - 2 * pingPong] =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1056,work[l - 1] =
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1055,dMin2 = Math.min(dMin2, work[l - 1]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,960,d = work[i + 2];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,959,work[j + 2] = 0.0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,958,work[j]     = d;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,957,work[i]     = -0.0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,945,d = work[i];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,944,work[i + 2] = -0.0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,872,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,871,i0 = 1 + i / 4;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1093,return deflatedEnd;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1092,updateSigma(tau);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1091,dMin = 0.0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1090,work[4 * deflatedEnd - 3 - pingPong] = 0.0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,900,return dotProduct(v.data);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,889,return dot;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,887,dot += data[i] * v[i];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,886,for (int i = 0; i < data.length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,885,double dot = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,884,checkVectorDimensions(v.length);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,870,return dotProduct((ArrayRealVector) v);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,339,return eigenvectors[i].copy();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,337,findEigenVectors();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,336,if (eigenvectors == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,225,return new ArrayRealVector(this, true);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,177,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,176,data = deep ? v.data.clone() : v.data;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,175,public ArrayRealVector(ArrayRealVector v, boolean deep) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1570,} else {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1565,tau = gam * (1 - Math.sqrt(a2)) / (1 + a2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1564,if (a2 < cnst1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1544,if (end - start > 3) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1541,double a2 = (work[np - 8] / b2) * (1 + work[np - 4] / b1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1538,if (work[np - 8] > b2 || work[np - 4] > b1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1537,final double gam = dN2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1536,double b2 = work[np - 6];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1535,double b1 = work[np - 2];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1534,final int np = nn - 2 * pingPong;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1531,double s = 0.25 * dMin;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1530,tType = -5;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1106,tType -= 12;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1105,tau *= 0.25;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,1292,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,1287,if (data.length != n) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,909,return Math.sqrt(sum);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,907,sum += a * a;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,906,for (double a : data) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,905,double sum = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,299,return (ArrayRealVector) subtract(v.data);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,288,return new ArrayRealVector(out);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,286,out[i] = data[i] - v[i];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,285,for (int i = 0; i < data.length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,284,double[] out = new double[data.length];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,283,checkVectorDimensions(v.length);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,269,return subtract((ArrayRealVector) v);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,79,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,78,data = d.clone();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/ArrayRealVector.java,77,public ArrayRealVector(double[] d) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1499,np = nn - 13;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1498,b2 = work[nn - 9] / work[nn - 11];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1495,if (work[nn - 9]  >  work[nn - 11]) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1494,a2 = work[np - 4] / work[np - 2];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1491,if (work[np - 4]  >  work[np - 2]) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1490,gam = dN1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1489,b2 = work[np - 2];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1488,np = nn - 2 * pingPong;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1102,tType -= 11;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1101,tau = (tau + dMin) * (1.0 - 2.0 * MathUtils.EPSILON);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1099,} else if (dMin1 > 0.0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1096,if (tType < -22) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1094,} else if (dMin < 0.0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1085,} else if ((dMin < 0.0) &&
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1524,tau = s;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1522,s = gam * (1 - Math.sqrt(a2)) / (1 + a2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1521,if (a2 < cnst1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1518,a2 = cnst3 * a2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1504,for (int i4 = np; i4 >= 4 * start + 2 + pingPong; i4 -= 4) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1503,a2 = a2 + b2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java,1479,if (dMin == dN) {

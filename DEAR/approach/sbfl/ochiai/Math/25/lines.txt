@@ -1,0 +1,11 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,71,return y;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,64,return x;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,51,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,50,this.y      = y;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,49,this.x      = x;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,48,this.weight = weight;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java,47,public WeightedObservedPoint(final double weight, final double x, final double y) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java,77,return fit((new ParameterGuesser(getObservations())).guess());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java,62,return fit(new HarmonicOscillator.Parametric(), initialGuess);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java,47,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/25/src/main/java/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java,46,super(optimizer);

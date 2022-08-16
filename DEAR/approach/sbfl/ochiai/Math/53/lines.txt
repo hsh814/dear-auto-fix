@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,153,return createComplex(real + rhs.getReal(),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,152,MathUtils.checkNotNull(rhs);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,319,return isNaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2334,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/util/MathUtils.java,2331,if (o == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,997,return new Complex(realPart, imaginaryPart);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,308,return real;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,299,return imaginary;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,97,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,95,isInfinite = !isNaN &&
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,94,isNaN = Double.isNaN(real) || Double.isNaN(imaginary);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,92,this.imaginary = imaginary;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,91,this.real = real;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,90,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,1018,return "(" + real + ", " + imaginary + ")";
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,1012,return ComplexField.getInstance();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,1007,return createComplex(real, imaginary);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,985,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,982,innerPart += slice;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,981,result.add(createComplex(realPart, imaginaryPart));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,980,final double imaginaryPart = nthRootOfAbs *  FastMath.sin(innerPart);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,979,final double realPart      = nthRootOfAbs *  FastMath.cos(innerPart);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,977,for (int k = 0; k < n ; k++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,976,double innerPart = nthPhi;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,975,final double slice = 2 * FastMath.PI / n;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,974,final double nthPhi = getArgument()/n;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,971,final double nthRootOfAbs = FastMath.pow(abs(), 1.0 / n);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,967,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,966,result.add(INF);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,965,if (isInfinite()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,962,return result;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,961,result.add(NaN);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,960,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,958,List<Complex> result = new ArrayList<Complex>();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,953,throw MathRuntimeException.createIllegalArgumentException(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,952,if (n <= 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,929,return FastMath.atan2(getImaginary(), getReal());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,909,return createComplex(MathUtils.sinh(real2) / d, FastMath.sin(imaginary2) / d);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,907,double d = MathUtils.cosh(real2) + FastMath.cos(imaginary2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,906,double imaginary2 = 2.0 * imaginary;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,905,double real2 = 2.0 * real;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,902,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,901,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,871,return createComplex(FastMath.sin(real2) / d, MathUtils.sinh(imaginary2) / d);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,869,double d = FastMath.cos(real2) + MathUtils.cosh(imaginary2);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,868,double imaginary2 = 2.0 * imaginary;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,867,double real2 = 2.0 * real;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,864,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,863,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,833,return createComplex(1.0, 0.0).subtract(this.multiply(this)).sqrt();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,809,return createComplex(FastMath.abs(imaginary) / (2.0 * t),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,807,return createComplex(t, imaginary / (2.0 * t));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,806,if (real >= 0.0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,805,double t = FastMath.sqrt((FastMath.abs(real) + abs()) / 2.0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,802,return createComplex(0.0, 0.0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,801,if (real == 0.0 && imaginary == 0.0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,798,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,797,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,759,return createComplex(MathUtils.sinh(real) * FastMath.cos(imaginary),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,756,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,755,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,725,return createComplex(FastMath.sin(real) * MathUtils.cosh(imaginary),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,722,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,721,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,691,return this.log().multiply(x).exp();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,690,MathUtils.checkNotNull(x);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,667,return createComplex(FastMath.log(abs()),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,664,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,663,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,630,return createComplex(expReal *  FastMath.cos(imaginary), expReal * FastMath.sin(imaginary));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,629,double expReal = FastMath.exp(real);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,626,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,625,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,594,return createComplex(MathUtils.cosh(real) * FastMath.cos(imaginary),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,591,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,590,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,560,return createComplex(FastMath.cos(real) * MathUtils.cosh(imaginary),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,557,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,556,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,525,return this.add(Complex.I).divide(Complex.I.subtract(this)).log()
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,522,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,521,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,502,return sqrt1z().add(this.multiply(Complex.I)).log()
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,499,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,498,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,479,return this.add(this.sqrt1z().multiply(Complex.I)).log()
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,476,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,475,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,456,return createComplex(real - rhs.getReal(),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,453,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,452,if (isNaN || rhs.isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,451,MathUtils.checkNotNull(rhs);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,428,return createComplex(-real, -imaginary);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,425,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,424,if (isNaN) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,412,return createComplex(real * rhs, imaginary * rhs);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,410,return INF;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,407,if (Double.isInfinite(real) || Double.isInfinite(imaginary) ||
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,405,return NaN;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/53/src/main/java/org/apache/commons/math/complex/Complex.java,404,if (isNaN || Double.isNaN(rhs)) {

@@ -1,0 +1,100 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,597,return multiply(100).doubleValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,555,return new Fraction(numerator * i, denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,319,return (double)numerator / (double)denominator;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,430,u = -t;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,426,t /= 2; // cast out twos
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,400,u = -u;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,439,return -u * (1 << k); // gcd is u*2^k
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,438,} while (t != 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,435,t = (v - u) / 2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,429,if (t > 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,425,while ((t & 1) == 0) { // while t is even..
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,419,int t = ((u & 1) == 1) ? v : -(u / 2)/* B3 */;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,413,if (k == 31) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,407,while ((u & 1) == 0 && (v & 1) == 0 && k < 31) { // while u and v are
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,406,int k = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,403,v = -v;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,402,if (v > 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,399,if (u > 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,284,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,283,this.denominator = den;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,282,this.numerator   = num;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,278,if (den < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,272,if (d > 1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,271,final int d = ArithmeticUtils.gcd(num, den);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,261,if (den < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,257,if (den == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,256,public Fraction(int num, int den) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,387,if ((u == 0) || (v == 0)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,386,int v = q;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java,385,int u = p;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,663,return FractionField.getInstance();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,658,return str;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,656,str = numerator + " / " + denominator;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,654,str = "0";
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,653,} else if (numerator == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,652,str = Integer.toString(numerator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,651,if (denominator == 1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,650,String str = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,636,return new Fraction(numerator, denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,635,denominator /= gcd;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,634,numerator /= gcd;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,633,int gcd = ArithmeticUtils.gcd(numerator, denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,630,denominator = -denominator;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,629,numerator = -numerator;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,626,throw new MathArithmeticException(LocalizedFormats.OVERFLOW_IN_FRACTION,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,624,if (numerator==Integer.MIN_VALUE ||
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,623,if (denominator < 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,621,numerator/=2; denominator/=2;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,620,if (denominator==Integer.MIN_VALUE && (numerator&1)==0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,617,return ZERO; // normalize zero.
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,616,if (numerator==0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,613,throw new MathArithmeticException(LocalizedFormats.ZERO_DENOMINATOR_IN_FRACTION,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,612,if (denominator == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,585,return new Fraction(numerator, denominator * i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,576,return multiply(fraction.reciprocal());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,573,throw new MathArithmeticException(LocalizedFormats.ZERO_FRACTION_TO_DIVIDE_BY,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,572,if (fraction.numerator == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,570,throw new NullArgumentException(LocalizedFormats.FRACTION);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,569,if (fraction == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,544,return getReducedFraction
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,543,int d2 = ArithmeticUtils.gcd(fraction.numerator, denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,542,int d1 = ArithmeticUtils.gcd(numerator, fraction.denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,538,return ZERO;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,537,if (numerator == 0 || fraction.numerator == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,535,throw new NullArgumentException(LocalizedFormats.FRACTION);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,534,if (fraction == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,518,return new Fraction (w.intValue(),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,515,throw new MathArithmeticException(LocalizedFormats.NUMERATOR_OVERFLOW_AFTER_MULTIPLY,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,514,if (w.bitLength() > 31) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,513,BigInteger w = t.divide(BigInteger.valueOf(d2));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,510,int d2 = (tmodd1==0)?d1:ArithmeticUtils.gcd(tmodd1, d1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,509,int tmodd1 = t.mod(BigInteger.valueOf(d1)).intValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,506,BigInteger t = isAdd ? uvp.add(upv) : uvp.subtract(upv);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,504,BigInteger upv = BigInteger.valueOf(fraction.numerator)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,502,BigInteger uvp = BigInteger.valueOf(numerator)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,494,return new Fraction
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,493,int upv = ArithmeticUtils.mulAndCheck(fraction.numerator, denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,492,int uvp = ArithmeticUtils.mulAndCheck(numerator, fraction.denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,490,if (d1==1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,489,int d1 = ArithmeticUtils.gcd(denominator, fraction.denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,485,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,484,if (fraction.numerator == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,482,return isAdd ? fraction : fraction.negate();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,481,if (numerator == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,478,throw new NullArgumentException(LocalizedFormats.FRACTION);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,477,if (fraction == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,463,return new Fraction(numerator - i * denominator, denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,454,return addSub(fraction, false /* subtract */);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,440,return new Fraction(numerator + i * denominator, denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,431,return addSub(fraction, true /* add */);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,417,return new Fraction(denominator, numerator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,409,return new Fraction(-numerator, denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,407,throw new MathArithmeticException(LocalizedFormats.OVERFLOW_IN_FRACTION, numerator, denominator);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,406,if (numerator==Integer.MIN_VALUE) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,398,return (long)doubleValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,388,return (int)doubleValue();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,378,return 37 * (37 * 17 + numerator) + denominator;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,369,return numerator;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,361,return denominator;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Math/27/src/main/java/org/apache/commons/math3/fraction/Fraction.java,353,return (float)doubleValue();

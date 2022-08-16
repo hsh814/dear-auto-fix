@@ -1,0 +1,87 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,615,} else {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,613,typeVarAssigns = getTypeArguments(parameterizedOwnerType,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,612,ParameterizedType parameterizedOwnerType = (ParameterizedType) ownerType;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,676,return typeVarAssigns;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,667,cls = ClassUtils.primitiveToWrapper(cls);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,660,if (toClass.isPrimitive()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,408,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,399,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,391,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,386,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,385,if (!isAssignable(toBound, bound, typeVarAssigns)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,384,for (Type bound : lowerBounds) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,379,toBound = substituteTypeVariables(toBound, typeVarAssigns);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,376,for (Type toBound : toLowerBounds) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,371,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,370,if (!isAssignable(bound, toBound, typeVarAssigns)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,369,for (Type bound : upperBounds) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,364,toBound = substituteTypeVariables(toBound, typeVarAssigns);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,361,for (Type toBound : toUpperBounds) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,359,Type[] lowerBounds = getImplicitLowerBounds(wildcardType);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,358,Type[] upperBounds = getImplicitUpperBounds(wildcardType);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,357,WildcardType wildcardType = (WildcardType) type;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,289,return isAssignable(((GenericArrayType) type).getGenericComponentType(),
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,287,if (type instanceof GenericArrayType) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,283,return cls.isArray()
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,280,Class<?> cls = (Class<?>) type;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,279,if (type instanceof Class<?>) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,277,Type toComponentType = toGenericArrayType.getGenericComponentType();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,274,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,273,if (toGenericArrayType.equals(type)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,268,if (toGenericArrayType == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,262,if (type == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,211,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,193,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,155,return toClass.equals(Object.class)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,154,if (type instanceof GenericArrayType) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,140,if (type instanceof TypeVariable<?>) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,136,return isAssignable(getRawType((ParameterizedType) type), toClass);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,134,if (type instanceof ParameterizedType) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,121,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java,88,return isAssignable(type, (GenericArrayType) toType, typeVarAssigns);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/SystemUtils.java,1426,return osName.startsWith(osNamePrefix);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/SystemUtils.java,1423,if (osName == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/SystemUtils.java,1409,return osName.startsWith(osNamePrefix) && osVersion.startsWith(osVersionPrefix);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/SystemUtils.java,1406,if (osName == null || osVersion == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/SystemUtils.java,1390,return version.startsWith(versionPrefix);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/SystemUtils.java,1387,if (version == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/SystemUtils.java,1304,return System.getProperty(property);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/SystemUtils.java,1286,return isOSNameMatch(OS_NAME, osNamePrefix);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/SystemUtils.java,1276,return isOSMatch(OS_NAME, OS_VERSION, osNamePrefix, osVersionPrefix);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/SystemUtils.java,1265,return isJavaVersionMatch(JAVA_SPECIFICATION_VERSION, versionPrefix);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,30,public class UnicodeUnescaper extends CharSequenceTranslator {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,85,return new UnicodeEscaper(codepointLow, codepointHigh, false);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,55,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,54,this.between = between;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,53,this.above = above;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,52,this.below = below;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,51,private UnicodeEscaper(int below, int above, boolean between) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,34,public class OctalUnescaper extends CharSequenceTranslator {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,62,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,60,this.options = EnumSet.copyOf(Arrays.asList(new OPTION[] { OPTION.semiColonRequired }));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,57,if(options.length > 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,56,public NumericEntityUnescaper(OPTION... options) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,78,return 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,75,return i;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,74,out.write(result.toString());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,73,if (result != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,72,CharSequence result = lookupMap.get(subSeq);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,71,CharSequence subSeq = input.subSequence(index, index + i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,70,for (int i = max; i >= shortest; i--) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,66,if (index + longest > input.length()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,65,int max = longest;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,58,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,57,longest = _longest;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,56,shortest = _shortest;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,52,_longest = sz;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,51,if (sz > _longest) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,49,_shortest = sz;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,48,if (sz < _shortest) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,47,int sz = seq[0].length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,46,this.lookupMap.put(seq[0], seq[1]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,45,for (CharSequence[] seq : lookup) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,44,if (lookup != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,43,int _longest = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,42,int _shortest = Integer.MAX_VALUE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,41,lookupMap = new HashMap<CharSequence, CharSequence>();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/15/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,40,public LookupTranslator(CharSequence[]... lookup) {

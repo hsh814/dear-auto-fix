@@ -1,0 +1,99 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,174,return;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,400,return reflectionHashCode(17, 37, object, false, null, null);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/IDKey.java,73,return value == idKey.value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/IDKey.java,69,if (id != idKey.id) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/IDKey.java,68,IDKey idKey = (IDKey) other;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/IDKey.java,65,if (!(other instanceof IDKey)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/IDKey.java,55,return id;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/IDKey.java,47,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/IDKey.java,46,value = _value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/IDKey.java,42,id = System.identityHashCode(_value);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/IDKey.java,40,public IDKey(Object _value) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,539,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,538,getRegistry().remove(new IDKey(value));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,523,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,522,getRegistry().add(new IDKey(value));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,366,return builder.toHashCode();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,364,reflectionAppend(object, clazz, builder, testTransients, excludeFields);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,363,clazz = clazz.getSuperclass();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,362,while (clazz.getSuperclass() != null && clazz != reflectUpToClass) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,361,reflectionAppend(object, clazz, builder, testTransients, excludeFields);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,360,Class<?> clazz = object.getClass();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,198,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,197,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,196,unregister(object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,192,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,187,builder.append(fieldValue);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,186,Object fieldValue = field.get(object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,181,if (!ArrayUtils.contains(excludeFields, field.getName())
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,180,for (Field field : fields) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,179,AccessibleObject.setAccessible(fields, true);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,178,Field[] fields = clazz.getDeclaredFields();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,177,register(object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,173,if (isRegistered(object)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,152,return getRegistry().contains(new IDKey(value));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,137,return REGISTRY.get();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/ArrayUtils.java,1730,return indexOf(array, objectToFind) != INDEX_NOT_FOUND;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/ArrayUtils.java,1646,return INDEX_NOT_FOUND;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/ArrayUtils.java,1645,if (array == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/ArrayUtils.java,1627,return indexOf(array, objectToFind, 0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,359,HashCodeBuilder builder = new HashCodeBuilder(initialNonZeroOddNumber, multiplierNonZeroOddNumber);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,883,iTotal = iTotal * iConstant + object.hashCode();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,356,if (object == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,886,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,859,if(object.getClass().isArray()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,855,if (object == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,966,return iTotal;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,593,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,592,iTotal = initialNonZeroOddNumber;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,591,iConstant = multiplierNonZeroOddNumber;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,588,if (multiplierNonZeroOddNumber % 2 == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,585,if (multiplierNonZeroOddNumber == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,582,if (initialNonZeroOddNumber % 2 == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,579,if (initialNonZeroOddNumber == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,578,public HashCodeBuilder(int initialNonZeroOddNumber, int multiplierNonZeroOddNumber) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,549,private int iTotal = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/IDKey.java,70,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/IDKey.java,66,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,979,return toHashCode();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,955,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,954,iTotal = iTotal * iConstant + superHashCode;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,940,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,937,append(array[i]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,936,for (int i = 0; i < array.length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,934,iTotal = iTotal * iConstant;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,933,if (array == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,920,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,919,iTotal = iTotal * iConstant + value;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,906,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,903,append(array[i]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,902,for (int i = 0; i < array.length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,900,iTotal = iTotal * iConstant;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,899,if (array == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,880,append((Object[]) object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,877,append((boolean[]) object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,876,} else if (object instanceof boolean[]) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,875,append((float[]) object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,874,} else if (object instanceof float[]) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,873,append((double[]) object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,872,} else if (object instanceof double[]) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,871,append((byte[]) object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,870,} else if (object instanceof byte[]) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,869,append((char[]) object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,868,} else if (object instanceof char[]) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,867,append((short[]) object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,866,} else if (object instanceof short[]) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,865,append((int[]) object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,864,} else if (object instanceof int[]) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,863,append((long[]) object);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,862,if (object instanceof long[]) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,856,iTotal = iTotal * iConstant;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,842,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,839,append(array[i]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,838,for (int i = 0; i < array.length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,836,iTotal = iTotal * iConstant;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,835,if (array == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,822,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,821,iTotal = iTotal * iConstant + ((int) (value ^ (value >> 32)));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,804,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/32/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java,801,append(array[i]);

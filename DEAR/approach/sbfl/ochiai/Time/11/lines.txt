@@ -1,0 +1,93 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/GregorianChronology.java,209,leapYears = ((year + 3) >> 2) - leapYears + ((leapYears + 3) >> 2) - 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/DateTimeUtils.java,317,return PeriodType.standard();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/DateTimeUtils.java,86,return cMillisProvider.getMillis();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/Period.java,713,return getPeriodType().getIndexedField(this, PeriodType.MONTH_INDEX);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/Period.java,704,return getPeriodType().getIndexedField(this, PeriodType.YEAR_INDEX);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/Period.java,299,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/Period.java,298,super(0L, null, null);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,675,return (realIndex == -1 ? 0 : period.getValue(realIndex));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,674,int realIndex = iIndices[index];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,173,cYMD = type;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,165,type = new PeriodType(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,116,return type;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,114,cStandard = type;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,104,type = new PeriodType(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,103,if (type == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,102,PeriodType type = cStandard;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,599,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,598,iIndices = indices;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,597,iTypes = types;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,596,iName = name;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/PeriodType.java,595,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,329,return iValues[index];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,259,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,258,iValues = chrono.get(this, duration);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,257,iType = type;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,256,chrono = DateTimeUtils.getChronology(chrono);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,255,type = checkPeriodType(type);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/base/BasePeriod.java,254,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BaseChronology.java,289,return values;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BaseChronology.java,278,if (duration != 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BaseChronology.java,277,int[] values = new int[size];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BaseChronology.java,276,int size = period.size();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,91,return iChronology.getYearDifference(minuendInstant, subtrahendInstant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,88,if (minuendInstant < subtrahendInstant) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,84,return iChronology.setYear(instant, year);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,82,FieldUtils.verifyValueBounds
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,63,return set(instant, newYear);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,62,int newYear = FieldUtils.safeAdd(thisYear, years);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,61,int thisYear = get(instant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,59,return instant;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,58,if (years == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,54,return iChronology.getYear(instant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,280,return difference;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,276,if (minuendRem < subtrahendRem) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,273,long subtrahendRem = subtrahendInstant
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,271,long minuendRem = minuendInstant
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,258,if (minuendDom == iChronology.getDaysInYearMonth(minuendYear, minuendMonth)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,256,int minuendDom = iChronology.getDayOfMonth
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,252,long difference = (minuendYear - subtrahendYear) * ((long) iMax) + minuendMonth - subtrahendMonth;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,250,int subtrahendMonth = iChronology.getMonthOfYear(subtrahendInstant, subtrahendYear);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,249,int subtrahendYear = iChronology.getYear(subtrahendInstant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,248,int minuendMonth = iChronology.getMonthOfYear(minuendInstant, minuendYear);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,247,int minuendYear = iChronology.getYear(minuendInstant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,243,if (minuendInstant < subtrahendInstant) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,198,return instant;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,196,instant += millisOfDay;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,195,instant = getYearMonthDayMillis(year, 1, dayOfYear);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,190,dayOfYear++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,188,if (isLeapYear(year)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,184,dayOfYear--;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,182,if (!isLeapYear(year)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,180,if (isLeapYear(thisYear)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,179,if (dayOfYear > (31 + 28)) { // after Feb 28
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,177,int millisOfDay = getMillisOfDay(instant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,176,int dayOfYear = getDayOfYear(instant, thisYear);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,175,int thisYear = getYear(instant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,170,return difference;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,168,difference--;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,167,if (minuendRem < subtrahendRem) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,166,int difference = minuendYear - subtrahendYear;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,161,} else if (minuendRem >= FEB_29 && isLeapYear(minuendYear)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,157,if (isLeapYear(subtrahendYear)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,156,if (subtrahendRem >= FEB_29) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,153,long subtrahendRem = subtrahendInstant - getYearMillis(subtrahendYear);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,152,long minuendRem = minuendInstant - getYearMillis(minuendYear);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,149,int subtrahendYear = getYear(subtrahendInstant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,148,int minuendYear = getYear(minuendInstant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicGJChronology.java,134,return ((value > 28 || value < 1) ? getDaysInMonthMax(instant) : 28);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicDayOfMonthDateTimeField.java,96,return iChronology.getDaysInMonthMaxForSet(instant, value);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicDayOfMonthDateTimeField.java,55,return 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicChronology.java,554,return (DateTimeConstants.MILLIS_PER_DAY - 1)
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicChronology.java,540,return 7 + (int) ((daysSince19700101 + 4) % 7);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicChronology.java,539,if (daysSince19700101 < -3) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicChronology.java,537,daysSince19700101 = (instant - (DateTimeConstants.MILLIS_PER_DAY - 1))
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicChronology.java,486,return (int) ((instant - yearStart) / DateTimeConstants.MILLIS_PER_DAY) + 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicChronology.java,485,long yearStart = getYearMillis(year);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicChronology.java,410,year--;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicChronology.java,402,i2 = i2 - unitMillis + 1;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicChronology.java,373,return millis;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicChronology.java,372,millis += getTotalMillisByYearMonth(year, month);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/chrono/BasicChronology.java,371,long millis = getYearMillis(year);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/DateTimeUtils.java,319,return type;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/11/src/main/java/org/joda/time/DateTimeUtils.java,316,if (type == null) {

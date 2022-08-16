@@ -1,0 +1,51 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/NodeUtil.java,346,return false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,149,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,148,compiler.report(JSError.make(UNKNOWN_DEFINE_WARNING, unknownDefine));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/NodeUtil.java,343,return defines.contains(val.getQualifiedName());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/NodeUtil.java,342,if (val.isQualifiedName()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/NodeUtil.java,337,return isValidDefineValue(val.getFirstChild(), defines);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/NodeUtil.java,321,switch (val.getType()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/parsing/IRFactory.java,888,return Token.BITAND;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/JSError.java,189,return type.key + ". " + description + " at " +
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/JSError.java,71,return new JSError(null, null, -1, -1, type, null, arguments);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,180,allDefines.add(name);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,179,if (isValidDefineType(name.docInfo.getType())) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,161,return !type.isUnknownType() && type.isSubtype(
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,160,JSType type = expression.evaluate(null, compiler.getTypeRegistry());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/rhino/JSDocInfoBuilder.java,437,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/rhino/JSDocInfoBuilder.java,436,populated = true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/rhino/JSDocInfoBuilder.java,435,currentInfo.setDefine(true);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/rhino/JSDocInfoBuilder.java,431,if (type != null &&
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java,773,if (!jsdocBuilder.recordDefineType(type)) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/rhino/JSDocInfo.java,251,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/rhino/JSDocInfo.java,250,setFlag(value, MASK_DEFINE);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,204,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,176,if (name.docInfo != null && name.docInfo.isDefine()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/parsing/IRFactory.java,924,return Token.NEG;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/GlobalNamespace.java,99,process();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/NodeUtil.java,326,return true;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,208,return pass.getAllDefines();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,207,NodeTraversal.traverse(compiler, root, pass);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,206,CollectDefines pass = new CollectDefines(compiler, allDefines);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,175,for (Name name : namespace.getNameIndex().values()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,174,List<Name> allDefines = Lists.newArrayList();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,150,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,147,for (String unknownDefine : unusedReplacements) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,146,unusedReplacements.removeAll(KNOWN_DEFINES);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,145,unusedReplacements.removeAll(allDefines.keySet());
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,144,Set<String> unusedReplacements = dominantReplacements.keySet();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,140,if (changed) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,124,for (Map.Entry<String, DefineInfo> def : allDefines.entrySet()) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,123,boolean changed = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,120,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,119,overrideDefines(collectDefines(root, namespace));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,116,if (namespace == null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,112,return this;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,111,this.namespace = namespace;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,103,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,102,dominantReplacements = replacements;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,101,this.compiler = compiler;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,60,private GlobalNamespace namespace = null;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/ProcessDefines.java,100,ProcessDefines(AbstractCompiler compiler, Map<String, Node> replacements) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/parsing/IRFactory.java,908,return Token.ADD;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Closure/94/src/com/google/javascript/jscomp/NodeTraversal.java,639,return JSError.make(getSourceName(), n, type, arguments);

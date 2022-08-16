@@ -1,0 +1,81 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,873,calendar.setTimeZone(mTimeZone);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,872,calendar = (Calendar) calendar.clone();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,643,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,642,rule = selectNumberRule(Calendar.MILLISECOND, tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,182,return getInstance(pattern, timeZone, null);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,743,inLiteral = !inLiteral;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,738,if (i + 1 < length && pattern.charAt(i + 1) == '\'') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,640,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,639,rule = selectNumberRule(Calendar.SECOND, tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,637,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,636,rule = selectNumberRule(Calendar.MINUTE, tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,634,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,633,rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,628,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,627,rule = selectNumberRule(Calendar.DAY_OF_MONTH, tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,621,rule = TwoDigitMonthField.INSTANCE;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,620,} else if (tokenLen == 2) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,618,} else if (tokenLen == 3) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,549,locale = Locale.getDefault();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,773,return new PaddedNumberField(field, padding);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,610,rule = selectNumberRule(Calendar.YEAR, tokenLen);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,771,return new TwoDigitNumberField(field);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,616,if (tokenLen >= 4) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,609,if (tokenLen >= 4) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,750,buf.append(c);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,748,break;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,747,i--;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,745,} else if (!inLiteral &&
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,737,if (c == '\'') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,735,c = pattern.charAt(i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,734,for (; i < length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,732,boolean inLiteral = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,730,buf.append('\'');
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,685,rule = new CharacterLiteral(sub.charAt(0));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,684,if (sub.length() == 1) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,683,String sub = token.substring(1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,218,cInstanceCache.put(format, format);  // this is OK!
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,217,format.init();  // convert shell format into usable one
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,216,format = emptyFormat;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,767,switch (padding) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,756,return buf.toString();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,755,indexRef[0] = i;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,727,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,723,i++;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,722,buf.append(c);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,721,if (peek == c) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,720,char peek = pattern.charAt(i + 1);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,719,while (i + 1 < length) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,717,buf.append(c);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,714,if (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z') {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,713,char c = pattern.charAt(i);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,711,int length = pattern.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,710,int i = indexRef[0];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,708,StringBuilder buf = new StringBuilder();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,697,return rules;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,694,rules.add(rule);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,604,switch (c) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,602,char c = token.charAt(0);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,597,if (tokenLen == 0) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,596,int tokenLen = token.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,594,i = indexRef[0];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,593,String token = parseToken(mPattern, indexRef);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,592,indexRef[0] = i;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,591,for (int i = 0; i < length; i++) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,589,int[] indexRef = new int[1];
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,588,int length = mPattern.length();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,586,String[] AmPmStrings = symbols.getAmPmStrings();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,585,String[] shortWeekdays = symbols.getShortWeekdays();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,584,String[] weekdays = symbols.getWeekdays();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,583,String[] shortMonths = symbols.getShortMonths();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,582,String[] months = symbols.getMonths();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,581,String[] ERAs = symbols.getEras();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,579,List<Rule> rules = new ArrayList<Rule>();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,578,DateFormatSymbols symbols = new DateFormatSymbols(mLocale);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,567,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,566,mMaxLengthEstimate = len;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,563,len += mRules[i].estimateLength();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,562,for (int i=mRules.length; --i >= 0; ) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,561,int len = 0;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,559,mRules = rulesList.toArray(new Rule[rulesList.size()]);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Lang/38/src/java/org/apache/commons/lang3/time/FastDateFormat.java,558,List<Rule> rulesList = parsePattern();

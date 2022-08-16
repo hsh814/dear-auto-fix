@@ -1,0 +1,37 @@
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,162,return getZone((String)obj);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/DateTime.java,1694,return withMillis(getChronology().millisOfSecond().set(getMillis(), millis));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/DateTime.java,1662,return withMillis(getChronology().minuteOfHour().set(getMillis(), minute));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/DateTime.java,522,return super.toDateTime(chronology);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/DateTime.java,519,if (getChronology() == chronology) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/DateTime.java,518,chronology = DateTimeUtils.getChronology(chronology);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/DateTime.java,1646,return withMillis(getChronology().hourOfDay().set(getMillis(), hour));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/DateTimeZone.java,843,* offset transitions (due to DST or other historical changes), ranges of
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/DateTimeZone.java,843,return getOffset(instant) == getStandardOffset(instant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/base/AbstractInstant.java,177,return new DateTime(getMillis(), chronology);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/DateTime.java,220,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/tz/CachedDateTimeZone.java,115,public int getStandardOffset(long instant) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,115,return getInfo(instant).getStandardOffset(instant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/DateTime.java,219,super(instant, zone);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeParserBucket.java,336,if (text != null) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/format/DateTimeParserBucket.java,336,iSavedFieldsShared = false;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeParserBucket.java,335,"Illegal instant due to time zone offset transition (" + iZone + ')';
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/format/DateTimeParserBucket.java,335,iSavedFields = savedFields = (SavedField[])iSavedFields.clone();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/base/BaseDateTime.java,151,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/DateTime.java,1678,return withMillis(getChronology().secondOfMinute().set(getMillis(), second));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/base/BaseDateTime.java,150,iMillis = checkInstant(converter.getInstantMillis(instant, chrono), chrono);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/base/BaseDateTime.java,149,iChronology = chrono;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/base/BaseDateTime.java,148,Chronology chrono = checkChronology(converter.getChronology(instant, zone));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/base/BaseDateTime.java,147,InstantConverter converter = ConverterManager.getInstance().getInstantConverter(instant);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/base/BaseDateTime.java,146,super();
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/format/FormatUtils.java,353,return ((value << 3) + (value << 1)) + text.charAt(position + 1) - '0';
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/format/FormatUtils.java,352,int value = text.charAt(position) - '0';
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/convert/AbstractConverter.java,67,return ISOChronology.getInstance(zone);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeParserBucket.java,225,if (savedFieldsCount == savedFields.length || iSavedFieldsShared) {
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/format/DateTimeParserBucket.java,225,}
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeParserBucket.java,224,
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/format/DateTimeParserBucket.java,224,saveField(new SavedField(field, value));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/JodaTimeContrib/gwt/src/main/gwt-emul/org/joda/time/emul/org/joda/time/format/DateTimeParserBucket.java,133,* Set a time zone to be used when computeMillis is called, which
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/format/DateTimeParserBucket.java,133,return iChrono;
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/DateTime.java,536,return (newMillis == getMillis() ? this : new DateTime(newMillis, getChronology()));
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/convert/StringConverter.java,65,return p.withChronology(chrono).parseMillis(str);
+/root/dear-auto-fix/DEAR/approach/sbfl/defects4j_data/Time/26/src/main/java/org/joda/time/convert/StringConverter.java,64,DateTimeFormatter p = ISODateTimeFormat.dateTimeParser();
