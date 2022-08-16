@@ -67,8 +67,8 @@ def run_on_defects4j(model):
         tic = time.perf_counter()
         toc = time.perf_counter()
         while toc-tic < 18000:
-            folder = path_ + "/sbfl/defects4j_data/" + projects[i] + "/" + str(bug + 1)
-            subprocess.call("./sbfl.sh " + projects[i] + " " + str(bug + 1) + " " + folder, shell=True)
+            folder = path_ + "/sbfl/defects4j_data/" + p + "/" + bid
+            subprocess.call("./sbfl.sh " + p + " " + bid + " " + folder, shell=True)
             print("Failed")
             toc = time.perf_counter()
     # for i in range(len(projects)):
@@ -165,6 +165,7 @@ def model_process(data_group):
     learning_model = qu_model(len(training_input_1[0]), len(training_output_1[0]), 128, 128, 128, 0.5)
     learning_model.fit(training_input_1, training_output_1, batch_size=1, epochs=1)
     learning_model.save("model")
+    learning_model.save("/root/dear-auto-fix/data/model")
     output_model_1 = learning_model.predict(testing_input_1)
     learning_model_2 = qu_model(len(training_input_2[0]), len(training_output_2[0]), 128, 128, 128, 0.5)
     learning_model_2.fit(training_input_2, training_output_2, batch_size=1, epochs=1)
